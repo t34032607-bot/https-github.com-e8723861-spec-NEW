@@ -292,53 +292,23 @@
 2026-04-15 15:51:57,443 | INFO | [GRID_BUY] BUY limit @ 44145.81 | Qty: 1e-06
 2026-04-15 15:51:57,444 | INFO | [GRID_SELL] SELL limit @ 45764.19 | Qty: 1e-06
 2026-04-15 15:51:57,444 | INFO | [GRID_BUY] BUY limit @ 43741.22 | Qty: 1e-06
-2026-04-15 15:51:57,445 | INFO | [GRID_SELL] SELL limit @ 46168.78 | Qty: 1e-06
-2026-04-15 15:51:57,445 | INFO | [GRID_BUY] BUY limit @ 43336.62 | Qty: 1e-06
-2026-04-15 15:51:57,445 | INFO | [GRID_SELL] SELL limit @ 46573.38 | Qty: 1e-06
+2026-04-15 15:51:57,444 | INFO | [GRID_SELL] SELL limit @ 46168.78 | Qty: 1e-06
+2026-04-15 15:51:57,444 | INFO | [GRID_BUY] BUY limit @ 43336.62 | Qty: 1e-06
+2026-04-15 15:51:57,444 | INFO | [GRID_SELL] SELL limit @ 46573.38 | Qty: 1e-06
 2026-04-15 15:51:57,445 | INFO | [GRID_BUY] BUY limit @ 42932.020000000004 | Qty: 1e-06
 2026-04-15 15:51:57,445 | INFO | [GRID_SELL] SELL limit @ 46977.98 | Qty: 1e-06
 2026-04-15 15:51:57,445 | INFO | [GRID_BUY] BUY limit @ 42527.43 | Qty: 1e-06
-2026-04-15 15:51:57,446 | INFO | [GRID_SELL] SELL limit @ 47382.57 | Qty: 1e-06
-2026-04-15 15:51:57,446 | INFO | [GRID_BUY] BUY limit @ 42122.840000000004 | Qty: 1e-06
-2026-04-15 15:51:57,446 | INFO | [GRID_SELL] SELL limit @ 47787.16 | Qty: 1e-06
+2026-04-15 15:51:57,445 | INFO | [GRID_SELL] SELL limit @ 47382.57 | Qty: 1e-06
+2026-04-15 15:51:57,445 | INFO | [GRID_BUY] BUY limit @ 42122.840000000004 | Qty: 1e-06
+2026-04-15 15:51:57,445 | INFO | [GRID_SELL] SELL limit @ 47787.16 | Qty: 1e-06
 2026-04-15 15:51:57,446 | INFO | [GRID_BUY] BUY limit @ 41718.24 | Qty: 1e-06
 2026-04-15 15:51:57,446 | INFO | [GRID_SELL] SELL limit @ 48191.76 | Qty: 1e-06
 2026-04-15 15:51:57,446 | INFO | [GRID_BUY] BUY limit @ 41313.64 | Qty: 1e-06
-2026-04-15 15:51:57,447 | INFO | [GRID_SELL] SELL limit @ 48596.36 | Qty: 1e-06
-2026-04-15 15:51:57,447 | INFO | [GRID_BUY] BUY limit @ 40909.05 | Qty: 1e-06
-2026-04-15 15:51:57,447 | INFO | [GRID_SELL] SELL limit @ 49000.950000000004 | Qty: 1e-06
+2026-04-15 15:51:57,446 | INFO | [GRID_SELL] SELL limit @ 48596.36 | Qty: 1e-06
+2026-04-15 15:51:57,446 | INFO | [GRID_BUY] BUY limit @ 40909.05 | Qty: 1e-06
+2026-04-15 15:51:57,446 | INFO | [GRID_SELL] SELL limit @ 49000.950000000004 | Qty: 1e-06
 2026-04-15 15:51:58,136 | INFO | Websocket connected
 2026-04-15 15:51:58,137 | INFO | ✅ User Data WebSocket connected - instant fill detection active
-2026-04-15 15:53:50,888 | WARNING | User Data WebSocket closed
-2026-04-15 15:53:50,889 | INFO | 🛑 Hybrid Bot stopped
-2026-04-15 15:53:50,985 | INFO | ✅ PAPER TRADING MODE ENABLED - Starting balance: $10.0
-2026-04-15 15:53:50,986 | INFO | Loaded saved state for BTC-USD
-2026-04-15 15:53:50,986 | INFO | ✅ Server time synchronized (skew: 0ms)
-2026-04-15 15:53:50,986 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
-2026-04-15 15:53:50,987 | INFO | User Data Stream WebSocket started (real-time fills)
-2026-04-15 15:53:50,987 | INFO | [INITIAL] BUY limit @ 44955.0 | Qty: 4.9999999999999996e-06
-2026-04-15 15:53:50,987 | INFO | [GRID_BUY] BUY limit @ 44550.4 | Qty: 1e-06
-2026-04-15 15:53:50,987 | INFO | [GRID_SELL] SELL limit @ 45359.6 | Qty: 1e-06
-2026-04-15 15:53:50,987 | INFO | [GRID_BUY] BUY limit @ 44145.81 | Qty: 1e-06
-2026-04-15 15:53:50,988 | INFO | [GRID_SELL] SELL limit @ 45764.19 | Qty: 1e-06
-2026-04-15 15:53:50,988 | INFO | [GRID_BUY] BUY limit @ 43741.22 | Qty: 1e-06
-2026-04-15 15:53:50,988 | INFO | [GRID_SELL] SELL limit @ 46168.78 | Qty: 1e-06
-2026-04-15 15:53:50,989 | INFO | [GRID_BUY] BUY limit @ 43336.62 | Qty: 1e-06
-2026-04-15 15:53:50,989 | INFO | [GRID_SELL] SELL limit @ 46573.38 | Qty: 1e-06
-2026-04-15 15:53:50,991 | INFO | [GRID_BUY] BUY limit @ 42932.020000000004 | Qty: 1e-06
-2026-04-15 15:53:50,991 | INFO | [GRID_SELL] SELL limit @ 46977.98 | Qty: 1e-06
-2026-04-15 15:53:50,991 | INFO | [GRID_BUY] BUY limit @ 42527.43 | Qty: 1e-06
-2026-04-15 15:53:50,991 | INFO | [GRID_SELL] SELL limit @ 47382.57 | Qty: 1e-06
-2026-04-15 15:53:50,991 | INFO | [GRID_BUY] BUY limit @ 42122.840000000004 | Qty: 1e-06
-2026-04-15 15:53:50,991 | INFO | [GRID_SELL] SELL limit @ 47787.16 | Qty: 1e-06
-2026-04-15 15:53:50,991 | INFO | [GRID_BUY] BUY limit @ 41718.24 | Qty: 1e-06
-2026-04-15 15:53:50,992 | INFO | [GRID_SELL] SELL limit @ 48191.76 | Qty: 1e-06
-2026-04-15 15:53:50,992 | INFO | [GRID_BUY] BUY limit @ 41313.64 | Qty: 1e-06
-2026-04-15 15:53:50,992 | INFO | [GRID_SELL] SELL limit @ 48596.36 | Qty: 1e-06
-2026-04-15 15:53:50,992 | INFO | [GRID_BUY] BUY limit @ 40909.05 | Qty: 1e-06
-2026-04-15 15:53:50,992 | INFO | [GRID_SELL] SELL limit @ 49000.950000000004 | Qty: 1e-06
-2026-04-15 15:53:51,561 | INFO | Websocket connected
-2026-04-15 15:53:51,561 | INFO | ✅ User Data WebSocket connected - instant fill detection active
 2026-04-15 16:24:21,023 | INFO | ✅ PAPER TRADING MODE ENABLED - Starting balance: $10.0
 2026-04-15 16:24:21,023 | INFO | Loaded saved state for BTC-USD
 2026-04-15 16:24:21,024 | INFO | ✅ Server time synchronized (skew: 0ms)
@@ -352,7 +322,7 @@
 2026-04-15 16:24:21,027 | INFO | [GRID_BUY] BUY limit @ 43741.22 | Qty: 1e-06
 2026-04-15 16:24:21,027 | INFO | [GRID_SELL] SELL limit @ 46168.78 | Qty: 1e-06
 2026-04-15 16:24:21,027 | INFO | [GRID_BUY] BUY limit @ 43336.62 | Qty: 1e-06
-2026-04-15 16:24:21,028 | INFO | [GRID_SELL] SELL limit @ 46573.38 | Qty: 1e-06
+2026-04-15 16:24:21,027 | INFO | [GRID_SELL] SELL limit @ 46573.38 | Qty: 1e-06
 2026-04-15 16:24:21,028 | INFO | [GRID_BUY] BUY limit @ 42932.020000000004 | Qty: 1e-06
 2026-04-15 16:24:21,028 | INFO | [GRID_SELL] SELL limit @ 46977.98 | Qty: 1e-06
 2026-04-15 16:24:21,028 | INFO | [GRID_BUY] BUY limit @ 42527.43 | Qty: 1e-06
@@ -365,8 +335,8 @@
 2026-04-15 16:24:21,029 | INFO | [GRID_SELL] SELL limit @ 48596.36 | Qty: 1e-06
 2026-04-15 16:24:21,030 | INFO | [GRID_BUY] BUY limit @ 40909.05 | Qty: 1e-06
 2026-04-15 16:24:21,030 | INFO | [GRID_SELL] SELL limit @ 49000.950000000004 | Qty: 1e-06
-2026-04-15 16:24:21,568 | INFO | Websocket connected
-2026-04-15 16:24:21,573 | INFO | ✅ User Data WebSocket connected - instant fill detection active
+2026-04-15 16:24:21,561 | INFO | Websocket connected
+2026-04-15 16:24:21,561 | INFO | ✅ User Data WebSocket connected - instant fill detection active
 2026-04-15 16:40:20,281 | INFO | ✅ PAPER TRADING MODE ENABLED - Starting balance: $10.0
 2026-04-15 16:40:20,281 | INFO | Loaded saved state for BTC-USD
 2026-04-15 16:40:20,282 | INFO | ✅ Server time synchronized (skew: 1ms)
@@ -377,22 +347,22 @@
 2026-04-15 16:40:20,289 | INFO | [GRID_SELL] SELL limit @ 45359.6 | Qty: 1e-06
 2026-04-15 16:40:20,289 | INFO | [GRID_BUY] BUY limit @ 44145.81 | Qty: 1e-06
 2026-04-15 16:40:20,289 | INFO | [GRID_SELL] SELL limit @ 45764.19 | Qty: 1e-06
-2026-04-15 16:40:20,290 | INFO | [GRID_BUY] BUY limit @ 43741.22 | Qty: 1e-06
-2026-04-15 16:40:20,290 | INFO | [GRID_SELL] SELL limit @ 46168.78 | Qty: 1e-06
-2026-04-15 16:40:20,290 | INFO | [GRID_BUY] BUY limit @ 43336.62 | Qty: 1e-06
-2026-04-15 16:40:20,290 | INFO | [GRID_SELL] SELL limit @ 46573.38 | Qty: 1e-06
-2026-04-15 16:40:20,290 | INFO | [GRID_BUY] BUY limit @ 42932.020000000004 | Qty: 1e-06
-2026-04-15 16:40:20,290 | INFO | [GRID_SELL] SELL limit @ 46977.98 | Qty: 1e-06
-2026-04-15 16:40:20,291 | INFO | [GRID_BUY] BUY limit @ 42527.43 | Qty: 1e-06
-2026-04-15 16:40:20,291 | INFO | [GRID_SELL] SELL limit @ 47382.57 | Qty: 1e-06
-2026-04-15 16:40:20,291 | INFO | [GRID_BUY] BUY limit @ 42122.840000000004 | Qty: 1e-06
-2026-04-15 16:40:20,294 | INFO | [GRID_SELL] SELL limit @ 47787.16 | Qty: 1e-06
-2026-04-15 16:40:20,294 | INFO | [GRID_BUY] BUY limit @ 41718.24 | Qty: 1e-06
-2026-04-15 16:40:20,294 | INFO | [GRID_SELL] SELL limit @ 48191.76 | Qty: 1e-06
-2026-04-15 16:40:20,294 | INFO | [GRID_BUY] BUY limit @ 41313.64 | Qty: 1e-06
-2026-04-15 16:40:20,294 | INFO | [GRID_SELL] SELL limit @ 48596.36 | Qty: 1e-06
-2026-04-15 16:40:20,295 | INFO | [GRID_BUY] BUY limit @ 40909.05 | Qty: 1e-06
-2026-04-15 16:40:20,295 | INFO | [GRID_SELL] SELL limit @ 49000.950000000004 | Qty: 1e-06
+2026-04-15 16:40:20,289 | INFO | [GRID_BUY] BUY limit @ 43741.22 | Qty: 1e-06
+2026-04-15 16:40:20,289 | INFO | [GRID_SELL] SELL limit @ 46168.78 | Qty: 1e-06
+2026-04-15 16:40:20,289 | INFO | [GRID_BUY] BUY limit @ 43336.62 | Qty: 1e-06
+2026-04-15 16:40:20,289 | INFO | [GRID_SELL] SELL limit @ 46573.38 | Qty: 1e-06
+2026-04-15 16:40:20,289 | INFO | [GRID_BUY] BUY limit @ 42932.020000000004 | Qty: 1e-06
+2026-04-15 16:40:20,289 | INFO | [GRID_SELL] SELL limit @ 46977.98 | Qty: 1e-06
+2026-04-15 16:40:20,289 | INFO | [GRID_BUY] BUY limit @ 42527.43 | Qty: 1e-06
+2026-04-15 16:40:20,289 | INFO | [GRID_SELL] SELL limit @ 47382.57 | Qty: 1e-06
+2026-04-15 16:40:20,289 | INFO | [GRID_BUY] BUY limit @ 42122.840000000004 | Qty: 1e-06
+2026-04-15 16:40:20,289 | INFO | [GRID_SELL] SELL limit @ 47787.16 | Qty: 1e-06
+2026-04-15 16:40:20,289 | INFO | [GRID_BUY] BUY limit @ 41718.24 | Qty: 1e-06
+2026-04-15 16:40:20,289 | INFO | [GRID_SELL] SELL limit @ 48191.76 | Qty: 1e-06
+2026-04-15 16:40:20,289 | INFO | [GRID_BUY] BUY limit @ 41313.64 | Qty: 1e-06
+2026-04-15 16:40:20,289 | INFO | [GRID_SELL] SELL limit @ 48596.36 | Qty: 1e-06
+2026-04-15 16:40:20,289 | INFO | [GRID_BUY] BUY limit @ 40909.05 | Qty: 1e-06
+2026-04-15 16:40:20,289 | INFO | [GRID_SELL] SELL limit @ 49000.950000000004 | Qty: 1e-06
 2026-04-15 16:40:20,695 | INFO | Websocket connected
 2026-04-15 16:40:20,696 | INFO | ✅ User Data WebSocket connected - instant fill detection active
 2026-04-15 16:40:37,483 | INFO | ✅ PAPER TRADING MODE ENABLED - Starting balance: $10.0
@@ -408,19 +378,19 @@
 2026-04-15 16:40:37,487 | INFO | [GRID_BUY] BUY limit @ 43741.22 | Qty: 1e-06
 2026-04-15 16:40:37,487 | INFO | [GRID_SELL] SELL limit @ 46168.78 | Qty: 1e-06
 2026-04-15 16:40:37,487 | INFO | [GRID_BUY] BUY limit @ 43336.62 | Qty: 1e-06
-2026-04-15 16:40:37,488 | INFO | [GRID_SELL] SELL limit @ 46573.38 | Qty: 1e-06
-2026-04-15 16:40:37,488 | INFO | [GRID_BUY] BUY limit @ 42932.020000000004 | Qty: 1e-06
-2026-04-15 16:40:37,488 | INFO | [GRID_SELL] SELL limit @ 46977.98 | Qty: 1e-06
-2026-04-15 16:40:37,488 | INFO | [GRID_BUY] BUY limit @ 42527.43 | Qty: 1e-06
-2026-04-15 16:40:37,488 | INFO | [GRID_SELL] SELL limit @ 47382.57 | Qty: 1e-06
-2026-04-15 16:40:37,489 | INFO | [GRID_BUY] BUY limit @ 42122.840000000004 | Qty: 1e-06
-2026-04-15 16:40:37,489 | INFO | [GRID_SELL] SELL limit @ 47787.16 | Qty: 1e-06
-2026-04-15 16:40:37,489 | INFO | [GRID_BUY] BUY limit @ 41718.24 | Qty: 1e-06
-2026-04-15 16:40:37,489 | INFO | [GRID_SELL] SELL limit @ 48191.76 | Qty: 1e-06
-2026-04-15 16:40:37,489 | INFO | [GRID_BUY] BUY limit @ 41313.64 | Qty: 1e-06
-2026-04-15 16:40:37,489 | INFO | [GRID_SELL] SELL limit @ 48596.36 | Qty: 1e-06
-2026-04-15 16:40:37,490 | INFO | [GRID_BUY] BUY limit @ 40909.05 | Qty: 1e-06
-2026-04-15 16:40:37,490 | INFO | [GRID_SELL] SELL limit @ 49000.950000000004 | Qty: 1e-06
+2026-04-15 16:40:37,487 | INFO | [GRID_SELL] SELL limit @ 46573.38 | Qty: 1e-06
+2026-04-15 16:40:37,487 | INFO | [GRID_BUY] BUY limit @ 42932.020000000004 | Qty: 1e-06
+2026-04-15 16:40:37,487 | INFO | [GRID_SELL] SELL limit @ 46977.98 | Qty: 1e-06
+2026-04-15 16:40:37,487 | INFO | [GRID_BUY] BUY limit @ 42527.43 | Qty: 1e-06
+2026-04-15 16:40:37,487 | INFO | [GRID_SELL] SELL limit @ 47382.57 | Qty: 1e-06
+2026-04-15 16:40:37,488 | INFO | [GRID_BUY] BUY limit @ 42122.840000000004 | Qty: 1e-06
+2026-04-15 16:40:37,488 | INFO | [GRID_SELL] SELL limit @ 47787.16 | Qty: 1e-06
+2026-04-15 16:40:37,488 | INFO | [GRID_BUY] BUY limit @ 41718.24 | Qty: 1e-06
+2026-04-15 16:40:37,488 | INFO | [GRID_SELL] SELL limit @ 48191.76 | Qty: 1e-06
+2026-04-15 16:40:37,488 | INFO | [GRID_BUY] BUY limit @ 41313.64 | Qty: 1e-06
+2026-04-15 16:40:37,488 | INFO | [GRID_SELL] SELL limit @ 48596.36 | Qty: 1e-06
+2026-04-15 16:40:37,489 | INFO | [GRID_BUY] BUY limit @ 40909.05 | Qty: 1e-06
+2026-04-15 16:40:37,489 | INFO | [GRID_SELL] SELL limit @ 49000.950000000004 | Qty: 1e-06
 2026-04-15 16:40:37,915 | INFO | Websocket connected
 2026-04-15 16:40:37,915 | INFO | ✅ User Data WebSocket connected - instant fill detection active
 2026-04-15 16:44:58,191 | INFO | ✅ PAPER TRADING MODE ENABLED - Starting balance: $10.0
@@ -434,21 +404,21 @@
 2026-04-15 16:44:58,197 | INFO | [GRID_BUY] BUY limit @ 44145.81 | Qty: 1e-06
 2026-04-15 16:44:58,197 | INFO | [GRID_SELL] SELL limit @ 45764.19 | Qty: 1e-06
 2026-04-15 16:44:58,197 | INFO | [GRID_BUY] BUY limit @ 43741.22 | Qty: 1e-06
-2026-04-15 16:44:58,198 | INFO | [GRID_SELL] SELL limit @ 46168.78 | Qty: 1e-06
-2026-04-15 16:44:58,199 | INFO | [GRID_BUY] BUY limit @ 43336.62 | Qty: 1e-06
-2026-04-15 16:44:58,200 | INFO | [GRID_SELL] SELL limit @ 46573.38 | Qty: 1e-06
-2026-04-15 16:44:58,200 | INFO | [GRID_BUY] BUY limit @ 42932.020000000004 | Qty: 1e-06
-2026-04-15 16:44:58,201 | INFO | [GRID_SELL] SELL limit @ 46977.98 | Qty: 1e-06
-2026-04-15 16:44:58,202 | INFO | [GRID_BUY] BUY limit @ 42527.43 | Qty: 1e-06
-2026-04-15 16:44:58,202 | INFO | [GRID_SELL] SELL limit @ 47382.57 | Qty: 1e-06
-2026-04-15 16:44:58,203 | INFO | [GRID_BUY] BUY limit @ 42122.840000000004 | Qty: 1e-06
-2026-04-15 16:44:58,203 | INFO | [GRID_SELL] SELL limit @ 47787.16 | Qty: 1e-06
-2026-04-15 16:44:58,204 | INFO | [GRID_BUY] BUY limit @ 41718.24 | Qty: 1e-06
-2026-04-15 16:44:58,205 | INFO | [GRID_SELL] SELL limit @ 48191.76 | Qty: 1e-06
-2026-04-15 16:44:58,205 | INFO | [GRID_BUY] BUY limit @ 41313.64 | Qty: 1e-06
-2026-04-15 16:44:58,206 | INFO | [GRID_SELL] SELL limit @ 48596.36 | Qty: 1e-06
-2026-04-15 16:44:58,207 | INFO | [GRID_BUY] BUY limit @ 40909.05 | Qty: 1e-06
-2026-04-15 16:44:58,208 | INFO | [GRID_SELL] SELL limit @ 49000.950000000004 | Qty: 1e-06
+2026-04-15 16:44:58,197 | INFO | [GRID_SELL] SELL limit @ 46168.78 | Qty: 1e-06
+2026-04-15 16:44:58,197 | INFO | [GRID_BUY] BUY limit @ 43336.62 | Qty: 1e-06
+2026-04-15 16:44:58,197 | INFO | [GRID_SELL] SELL limit @ 46573.38 | Qty: 1e-06
+2026-04-15 16:44:58,197 | INFO | [GRID_BUY] BUY limit @ 42932.020000000004 | Qty: 1e-06
+2026-04-15 16:44:58,197 | INFO | [GRID_SELL] SELL limit @ 46977.98 | Qty: 1e-06
+2026-04-15 16:44:58,197 | INFO | [GRID_BUY] BUY limit @ 42527.43 | Qty: 1e-06
+2026-04-15 16:44:58,197 | INFO | [GRID_SELL] SELL limit @ 47382.57 | Qty: 1e-06
+2026-04-15 16:44:58,197 | INFO | [GRID_BUY] BUY limit @ 42122.840000000004 | Qty: 1e-06
+2026-04-15 16:44:58,197 | INFO | [GRID_SELL] SELL limit @ 47787.16 | Qty: 1e-06
+2026-04-15 16:44:58,197 | INFO | [GRID_BUY] BUY limit @ 41718.24 | Qty: 1e-06
+2026-04-15 16:44:58,197 | INFO | [GRID_SELL] SELL limit @ 48191.76 | Qty: 1e-06
+2026-04-15 16:44:58,197 | INFO | [GRID_BUY] BUY limit @ 41313.64 | Qty: 1e-06
+2026-04-15 16:44:58,197 | INFO | [GRID_SELL] SELL limit @ 48596.36 | Qty: 1e-06
+2026-04-15 16:44:58,197 | INFO | [GRID_BUY] BUY limit @ 40909.05 | Qty: 1e-06
+2026-04-15 16:44:58,197 | INFO | [GRID_SELL] SELL limit @ 49000.950000000004 | Qty: 1e-06
 2026-04-15 16:44:58,997 | INFO | Websocket connected
 2026-04-15 16:44:59,003 | INFO | ✅ User Data WebSocket connected - instant fill detection active
 2026-04-15 16:59:07,390 | INFO | ✅ PAPER TRADING MODE ENABLED - Starting balance: $10.0
@@ -470,15 +440,15 @@
 2026-04-15 16:59:07,397 | INFO | [GRID_BUY] BUY limit @ 42932.020000000004 | Qty: 1e-06
 2026-04-15 16:59:07,398 | INFO | [GRID_SELL] SELL limit @ 46977.98 | Qty: 1e-06
 2026-04-15 16:59:07,398 | INFO | [GRID_BUY] BUY limit @ 42527.43 | Qty: 1e-06
-2026-04-15 16:59:07,403 | INFO | [GRID_SELL] SELL limit @ 47382.57 | Qty: 1e-06
-2026-04-15 16:59:07,404 | INFO | [GRID_BUY] BUY limit @ 42122.840000000004 | Qty: 1e-06
-2026-04-15 16:59:07,408 | INFO | [GRID_SELL] SELL limit @ 48191.76 | Qty: 1e-06
-2026-04-15 16:59:07,406 | INFO | [GRID_BUY] BUY limit @ 41718.24 | Qty: 1e-06
-2026-04-15 16:59:07,404 | INFO | [GRID_SELL] SELL limit @ 47787.16 | Qty: 1e-06
-2026-04-15 16:59:07,410 | INFO | [GRID_BUY] BUY limit @ 41313.64 | Qty: 1e-06
-2026-04-15 16:59:07,414 | INFO | [GRID_BUY] BUY limit @ 40909.05 | Qty: 1e-06
-2026-04-15 16:59:07,413 | INFO | [GRID_SELL] SELL limit @ 48596.36 | Qty: 1e-06
-2026-04-15 16:59:07,414 | INFO | [GRID_SELL] SELL limit @ 49000.950000000004 | Qty: 1e-06
+2026-04-15 16:59:07,398 | INFO | [GRID_SELL] SELL limit @ 47382.57 | Qty: 1e-06
+2026-04-15 16:59:07,399 | INFO | [GRID_BUY] BUY limit @ 42122.840000000004 | Qty: 1e-06
+2026-04-15 16:59:07,399 | INFO | [GRID_SELL] SELL limit @ 47787.16 | Qty: 1e-06
+2026-04-15 16:59:07,399 | INFO | [GRID_BUY] BUY limit @ 41718.24 | Qty: 1e-06
+2026-04-15 16:59:07,399 | INFO | [GRID_SELL] SELL limit @ 48191.76 | Qty: 1e-06
+2026-04-15 16:59:07,399 | INFO | [GRID_BUY] BUY limit @ 41313.64 | Qty: 1e-06
+2026-04-15 16:59:07,399 | INFO | [GRID_SELL] SELL limit @ 48596.36 | Qty: 1e-06
+2026-04-15 16:59:07,400 | INFO | [GRID_BUY] BUY limit @ 40909.05 | Qty: 1e-06
+2026-04-15 16:59:07,400 | INFO | [GRID_SELL] SELL limit @ 49000.950000000004 | Qty: 1e-06
 2026-04-15 16:59:07,420 | INFO | Grid placed in 0.028s (721.8 orders/sec)
 2026-04-15 16:59:08,080 | INFO | Websocket connected
 2026-04-15 16:59:08,080 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
@@ -505,9 +475,9 @@
 2026-04-15 17:14:12,929 | INFO | [GRID_BUY] BUY limit @ 43336.62 | Qty: 1e-06
 2026-04-15 17:14:12,929 | INFO | [GRID_SELL] SELL limit @ 46573.38 | Qty: 1e-06
 2026-04-15 17:14:12,929 | INFO | [GRID_BUY] BUY limit @ 42932.020000000004 | Qty: 1e-06
-2026-04-15 17:14:12,930 | INFO | [GRID_SELL] SELL limit @ 46977.98 | Qty: 1e-06
-2026-04-15 17:14:12,930 | INFO | [GRID_BUY] BUY limit @ 42527.43 | Qty: 1e-06
-2026-04-15 17:14:12,930 | INFO | [GRID_SELL] SELL limit @ 47382.57 | Qty: 1e-06
+2026-04-15 17:14:12,929 | INFO | [GRID_SELL] SELL limit @ 46977.98 | Qty: 1e-06
+2026-04-15 17:14:12,929 | INFO | [GRID_BUY] BUY limit @ 42527.43 | Qty: 1e-06
+2026-04-15 17:14:12,929 | INFO | [GRID_SELL] SELL limit @ 47382.57 | Qty: 1e-06
 2026-04-15 17:14:12,932 | INFO | [GRID_SELL] SELL limit @ 48596.36 | Qty: 1e-06
 2026-04-15 17:14:12,931 | INFO | [GRID_SELL] SELL limit @ 47787.16 | Qty: 1e-06
 2026-04-15 17:14:12,931 | INFO | [GRID_BUY] BUY limit @ 41718.24 | Qty: 1e-06
@@ -551,6 +521,411 @@
 2026-04-15 17:14:25,061 | INFO | [GRID_SELL] SELL limit @ 48596.36 | Qty: 1e-06
 2026-04-15 17:14:25,061 | INFO | [GRID_BUY] BUY limit @ 40909.05 | Qty: 1e-06
 2026-04-15 17:14:25,061 | INFO | [GRID_SELL] SELL limit @ 49000.950000000004 | Qty: 1e-06
-2026-04-15 17:14:25,063 | INFO | Grid placed in 0.007s (2833.8 orders/sec)
+2026-04-15 17:14:25,063 | INFO | Grid placed in 0.007s (2802.6 orders/sec)
 2026-04-15 17:14:25,575 | INFO | Websocket connected
 2026-04-15 17:14:25,576 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-15 17:18:43,425 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-15 17:18:43,571 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-15 17:18:43,572 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:18:43,572 | INFO |    Uptime: 258s
+2026-04-15 17:18:43,572 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:18:43,573 | INFO |    API Calls: 0
+2026-04-15 17:18:43,573 | INFO |    WebSocket: Connected
+2026-04-15 17:18:43,573 | INFO |    Errors: 0
+2026-04-15 17:18:43,573 | INFO | ✅ Health report saved: health_report.json
+2026-04-15 17:18:43,573 | INFO | ✅ Performance report saved: performance_report.json
+2026-04-15 17:18:43,574 | INFO | 🛑 Hybrid Bot stopped
+2026-04-15 17:18:43,574 | INFO | ✅ Bot stopped cleanly
+2026-04-15 17:18:43,748 | INFO | ✅ PAPER TRADING MODE ENABLED - Starting balance: $10.0
+2026-04-15 17:18:43,748 | INFO | Loaded saved state for BTC-USD
+2026-04-15 17:18:43,748 | INFO | ✅ Server time synchronized (skew: 1ms)
+2026-04-15 17:18:43,748 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-15 17:18:43,749 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-15 17:18:43,749 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-15 17:18:43,749 | INFO | 📊 Portfolio Setup:
+2026-04-15 17:18:43,750 | INFO |    Buying Power: $10.00
+2026-04-15 17:18:43,750 | INFO |    Target Exposure: $0.80
+2026-04-15 17:18:43,750 | INFO |    Current Price: $44955.00
+2026-04-15 17:18:43,750 | INFO | [INITIAL] BUY limit @ 44955.0 | Qty: 4.9999999999999996e-06
+2026-04-15 17:18:43,750 | INFO | 📈 Placing 20 grid orders in parallel...
+2026-04-15 17:18:43,751 | INFO | [GRID_BUY] BUY limit @ 44550.4 | Qty: 1e-06
+2026-04-15 17:18:43,751 | INFO | [GRID_SELL] SELL limit @ 45359.6 | Qty: 1e-06
+2026-04-15 17:18:43,751 | INFO | [GRID_BUY] BUY limit @ 44145.81 | Qty: 1e-06
+2026-04-15 17:18:43,752 | INFO | [GRID_SELL] SELL limit @ 45764.19 | Qty: 1e-06
+2026-04-15 17:18:43,752 | INFO | [GRID_BUY] BUY limit @ 43741.22 | Qty: 1e-06
+2026-04-15 17:18:43,752 | INFO | [GRID_SELL] SELL limit @ 46168.78 | Qty: 1e-06
+2026-04-15 17:18:43,752 | INFO | [GRID_BUY] BUY limit @ 43336.62 | Qty: 1e-06
+2026-04-15 17:18:43,752 | INFO | [GRID_SELL] SELL limit @ 46573.38 | Qty: 1e-06
+2026-04-15 17:18:43,755 | INFO | [GRID_BUY] BUY limit @ 41718.24 | Qty: 1e-06
+2026-04-15 17:18:43,753 | INFO | [GRID_SELL] SELL limit @ 46977.98 | Qty: 1e-06
+2026-04-15 17:18:43,753 | INFO | [GRID_BUY] BUY limit @ 42527.43 | Qty: 1e-06
+2026-04-15 17:18:43,754 | INFO | [GRID_SELL] SELL limit @ 47382.57 | Qty: 1e-06
+2026-04-15 17:18:43,754 | INFO | [GRID_BUY] BUY limit @ 42122.840000000004 | Qty: 1e-06
+2026-04-15 17:18:43,754 | INFO | [GRID_SELL] SELL limit @ 47787.16 | Qty: 1e-06
+2026-04-15 17:18:43,755 | INFO | [GRID_SELL] SELL limit @ 48191.76 | Qty: 1e-06
+2026-04-15 17:18:43,753 | INFO | [GRID_BUY] BUY limit @ 42932.020000000004 | Qty: 1e-06
+2026-04-15 17:18:43,755 | INFO | [GRID_BUY] BUY limit @ 41313.64 | Qty: 1e-06
+2026-04-15 17:18:43,755 | INFO | [GRID_SELL] SELL limit @ 48596.36 | Qty: 1e-06
+2026-04-15 17:18:43,756 | INFO | [GRID_BUY] BUY limit @ 40909.05 | Qty: 1e-06
+2026-04-15 17:18:43,756 | INFO | [GRID_SELL] SELL limit @ 49000.950000000004 | Qty: 1e-06
+2026-04-15 17:18:43,757 | INFO | Grid placed in 0.008s (2536.9 orders/sec)
+2026-04-15 17:18:44,398 | INFO | Websocket connected
+2026-04-15 17:18:44,399 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-15 17:21:45,490 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-15 17:21:45,709 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-15 17:21:45,709 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:21:45,710 | INFO |    Uptime: 181s
+2026-04-15 17:21:45,710 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:21:45,711 | INFO |    API Calls: 0
+2026-04-15 17:21:45,711 | INFO |    WebSocket: Connected
+2026-04-15 17:21:45,711 | INFO |    Errors: 0
+2026-04-15 17:21:45,711 | INFO | ✅ Health report saved: health_report.json
+2026-04-15 17:21:45,712 | INFO | ✅ Performance report saved: performance_report.json
+2026-04-15 17:21:45,712 | INFO | 🛑 Hybrid Bot stopped
+2026-04-15 17:21:45,712 | INFO | ✅ Bot stopped cleanly
+2026-04-15 17:21:45,888 | INFO | ✅ PAPER TRADING MODE ENABLED - Starting balance: $10.0
+2026-04-15 17:21:45,888 | INFO | Loaded saved state for BTC-USD
+2026-04-15 17:21:45,888 | INFO | ✅ Server time synchronized (skew: 1ms)
+2026-04-15 17:21:45,888 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-15 17:21:45,889 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-15 17:21:45,889 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-15 17:21:45,889 | INFO | 📊 Portfolio Setup:
+2026-04-15 17:21:45,890 | INFO |    Buying Power: $10.00
+2026-04-15 17:21:45,890 | INFO |    Target Exposure: $0.80
+2026-04-15 17:21:45,890 | INFO |    Current Price: $44955.00
+2026-04-15 17:21:45,890 | INFO | [INITIAL] BUY limit @ 44955.0 | Qty: 4.9999999999999996e-06
+2026-04-15 17:21:45,890 | INFO | 📈 Placing 20 grid orders in parallel...
+2026-04-15 17:21:45,891 | INFO | [GRID_BUY] BUY limit @ 44550.4 | Qty: 1e-06
+2026-04-15 17:21:45,891 | INFO | [GRID_SELL] SELL limit @ 45359.6 | Qty: 1e-06
+2026-04-15 17:21:45,891 | INFO | [GRID_BUY] BUY limit @ 44145.81 | Qty: 1e-06
+2026-04-15 17:21:45,891 | INFO | [GRID_SELL] SELL limit @ 45764.19 | Qty: 1e-06
+2026-04-15 17:21:45,892 | INFO | [GRID_BUY] BUY limit @ 43741.22 | Qty: 1e-06
+2026-04-15 17:21:45,892 | INFO | [GRID_SELL] SELL limit @ 46168.78 | Qty: 1e-06
+2026-04-15 17:21:45,892 | INFO | [GRID_BUY] BUY limit @ 43336.62 | Qty: 1e-06
+2026-04-15 17:21:45,892 | INFO | [GRID_SELL] SELL limit @ 46573.38 | Qty: 1e-06
+2026-04-15 17:21:45,892 | INFO | [GRID_BUY] BUY limit @ 42932.020000000004 | Qty: 1e-06
+2026-04-15 17:21:45,892 | INFO | [GRID_SELL] SELL limit @ 46977.98 | Qty: 1e-06
+2026-04-15 17:21:45,892 | INFO | [GRID_BUY] BUY limit @ 42527.43 | Qty: 1e-06
+2026-04-15 17:21:45,893 | INFO | [GRID_SELL] SELL limit @ 47382.57 | Qty: 1e-06
+2026-04-15 17:21:45,893 | INFO | [GRID_BUY] BUY limit @ 42122.840000000004 | Qty: 1e-06
+2026-04-15 17:21:45,893 | INFO | [GRID_SELL] SELL limit @ 47787.16 | Qty: 1e-06
+2026-04-15 17:21:45,894 | INFO | [GRID_BUY] BUY limit @ 41718.24 | Qty: 1e-06
+2026-04-15 17:21:45,894 | INFO | [GRID_SELL] SELL limit @ 48191.76 | Qty: 1e-06
+2026-04-15 17:21:45,894 | INFO | [GRID_BUY] BUY limit @ 41313.64 | Qty: 1e-06
+2026-04-15 17:21:45,894 | INFO | [GRID_SELL] SELL limit @ 48596.36 | Qty: 1e-06
+2026-04-15 17:21:45,894 | INFO | [GRID_BUY] BUY limit @ 40909.05 | Qty: 1e-06
+2026-04-15 17:21:45,894 | INFO | [GRID_SELL] SELL limit @ 49000.950000000004 | Qty: 1e-06
+2026-04-15 17:21:45,895 | INFO | Grid placed in 0.008s (2536.9 orders/sec)
+2026-04-15 17:21:46,420 | INFO | Websocket connected
+2026-04-15 17:21:46,420 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-15 17:26:46,055 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:26:46,055 | INFO |    Uptime: 300s
+2026-04-15 17:26:46,056 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:26:46,056 | INFO |    API Calls: 0
+2026-04-15 17:26:46,056 | INFO |    WebSocket: Connected
+2026-04-15 17:26:46,056 | INFO |    Errors: 0
+2026-04-15 17:26:46,056 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:26:46,056 | INFO |    Uptime: 300s
+2026-04-15 17:26:46,056 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:26:46,056 | INFO |    API Calls: 0
+2026-04-15 17:26:46,056 | INFO |    WebSocket: Connected
+2026-04-15 17:26:46,056 | INFO |    Errors: 0
+2026-04-15 17:26:46,057 | INFO | ✅ Health report saved: health_report.json
+2026-04-15 17:29:36,093 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-15 17:29:36,283 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-15 17:29:36,284 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:29:36,285 | INFO |    Uptime: 470s
+2026-04-15 17:29:36,285 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:29:36,285 | INFO |    API Calls: 0
+2026-04-15 17:29:36,285 | INFO |    WebSocket: Connected
+2026-04-15 17:29:36,285 | INFO |    Errors: 0
+2026-04-15 17:29:36,285 | INFO | ✅ Health report saved: health_report.json
+2026-04-15 17:29:36,286 | INFO | ✅ Performance report saved: performance_report.json
+2026-04-15 17:29:36,286 | INFO | 🛑 Hybrid Bot stopped
+2026-04-15 17:29:36,286 | INFO | ✅ Bot stopped cleanly
+2026-04-15 17:29:36,484 | INFO | ✅ PAPER TRADING MODE ENABLED - Starting balance: $10.0
+2026-04-15 17:29:36,485 | INFO | Loaded saved state for BTC-USD
+2026-04-15 17:29:36,485 | INFO | ✅ Server time synchronized (skew: 0ms)
+2026-04-15 17:29:36,485 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-15 17:29:36,485 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-15 17:29:36,486 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-15 17:29:36,487 | INFO | 📊 Portfolio Setup:
+2026-04-15 17:29:36,487 | INFO |    Buying Power: $10.00
+2026-04-15 17:29:36,487 | INFO |    Target Exposure: $0.80
+2026-04-15 17:29:36,487 | INFO |    Current Price: $44955.00
+2026-04-15 17:29:36,487 | INFO | 📈 Placing 20 grid orders in parallel...
+2026-04-15 17:29:36,489 | INFO | Grid placed in 0.002s (8441.8 orders/sec)
+2026-04-15 17:29:36,688 | INFO | Websocket connected
+2026-04-15 17:29:36,688 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-15 17:32:08,648 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-15 17:32:08,829 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-15 17:32:08,830 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:32:08,831 | INFO |    Uptime: 152s
+2026-04-15 17:32:08,831 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:32:08,831 | INFO |    API Calls: 0
+2026-04-15 17:32:08,831 | INFO |    WebSocket: Connected
+2026-04-15 17:32:08,831 | INFO |    Errors: 0
+2026-04-15 17:32:08,832 | INFO | ✅ Health report saved: health_report.json
+2026-04-15 17:32:08,832 | INFO | ✅ Performance report saved: performance_report.json
+2026-04-15 17:32:08,832 | INFO | 🛑 Hybrid Bot stopped
+2026-04-15 17:32:08,832 | INFO | ✅ Bot stopped cleanly
+2026-04-15 17:32:09,015 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-15 17:32:09,016 | INFO | Loaded saved state for BTC-USD
+2026-04-15 17:32:09,016 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-15 17:32:09,016 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-15 17:32:09,016 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-15 17:32:09,017 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-15 17:32:09,017 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-15 17:32:09,017 | INFO | 📊 Portfolio Setup:
+2026-04-15 17:32:09,017 | INFO |    Buying Power: $10.00
+2026-04-15 17:32:09,017 | INFO |    Target Exposure: $0.80
+2026-04-15 17:32:09,017 | INFO |    Current Price: $44955.00
+2026-04-15 17:32:09,017 | INFO | 📈 Placing 20 grid orders in parallel...
+2026-04-15 17:32:09,020 | INFO | Grid placed in 0.002s (8441.8 orders/sec)
+2026-04-15 17:32:09,688 | INFO | Websocket connected
+2026-04-15 17:32:09,688 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-15 17:32:58,821 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-15 17:32:58,822 | INFO | Loaded saved state for BTC-USD
+2026-04-15 17:32:58,822 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-15 17:32:58,822 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-15 17:32:58,823 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-15 17:32:58,823 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-15 17:32:58,823 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-15 17:32:58,823 | INFO | 📊 Portfolio Setup:
+2026-04-15 17:32:58,823 | INFO |    Buying Power: $10.00
+2026-04-15 17:32:58,823 | INFO |    Target Exposure: $0.80
+2026-04-15 17:32:58,823 | INFO |    Current Price: $44955.00
+2026-04-15 17:32:58,823 | INFO | 📈 Placing 20 grid orders in parallel...
+2026-04-15 17:32:58,826 | INFO | Grid placed in 0.003s (7696.0 orders/sec)
+2026-04-15 17:32:59,343 | INFO | Websocket connected
+2026-04-15 17:32:59,343 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-15 17:37:10,060 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:37:10,060 | INFO |    Uptime: 301s
+2026-04-15 17:37:10,060 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:37:10,060 | INFO |    API Calls: 0
+2026-04-15 17:37:10,061 | INFO |    WebSocket: Connected
+2026-04-15 17:37:10,061 | INFO |    Errors: 0
+2026-04-15 17:37:10,061 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:37:10,061 | INFO |    Uptime: 301s
+2026-04-15 17:37:10,061 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:37:10,061 | INFO |    API Calls: 0
+2026-04-15 17:37:10,061 | INFO |    WebSocket: Connected
+2026-04-15 17:37:10,061 | INFO |    Errors: 0
+2026-04-15 17:37:10,062 | INFO | ✅ Health report saved: health_report.json
+2026-04-15 17:37:59,204 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:37:59,204 | INFO |    Uptime: 300s
+2026-04-15 17:37:59,205 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:37:59,205 | INFO |    API Calls: 0
+2026-04-15 17:37:59,205 | INFO |    WebSocket: Connected
+2026-04-15 17:37:59,205 | INFO |    Errors: 0
+2026-04-15 17:37:59,205 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:37:59,206 | INFO |    Uptime: 300s
+2026-04-15 17:37:59,206 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:37:59,206 | INFO |    API Calls: 0
+2026-04-15 17:37:59,206 | INFO |    WebSocket: Connected
+2026-04-15 17:37:59,206 | INFO |    Errors: 0
+2026-04-15 17:37:59,206 | INFO | ✅ Health report saved: health_report.json
+2026-04-15 17:42:13,441 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:42:13,441 | INFO |    Uptime: 604s
+2026-04-15 17:42:13,442 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:42:13,442 | INFO |    API Calls: 0
+2026-04-15 17:42:13,442 | INFO |    WebSocket: Connected
+2026-04-15 17:42:13,442 | INFO |    Errors: 0
+2026-04-15 17:42:13,442 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:42:13,442 | INFO |    Uptime: 604s
+2026-04-15 17:42:13,442 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:42:13,442 | INFO |    API Calls: 0
+2026-04-15 17:42:13,442 | INFO |    WebSocket: Connected
+2026-04-15 17:42:13,443 | INFO |    Errors: 0
+2026-04-15 17:42:13,443 | INFO | ✅ Health report saved: health_report.json
+2026-04-15 17:43:00,688 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:43:00,688 | INFO |    Uptime: 601s
+2026-04-15 17:43:00,688 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:43:00,689 | INFO |    API Calls: 0
+2026-04-15 17:43:00,689 | INFO |    WebSocket: Connected
+2026-04-15 17:43:00,689 | INFO |    Errors: 0
+2026-04-15 17:43:00,689 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:43:00,689 | INFO |    Uptime: 601s
+2026-04-15 17:43:00,689 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:43:00,689 | INFO |    API Calls: 0
+2026-04-15 17:43:00,689 | INFO |    WebSocket: Connected
+2026-04-15 17:43:00,689 | INFO |    Errors: 0
+2026-04-15 17:43:00,690 | INFO | ✅ Health report saved: health_report.json
+2026-04-15 17:47:13,589 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:47:13,590 | INFO |    Uptime: 904s
+2026-04-15 17:47:13,590 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:47:13,590 | INFO |    API Calls: 0
+2026-04-15 17:47:13,590 | INFO |    WebSocket: Connected
+2026-04-15 17:47:13,590 | INFO |    Errors: 0
+2026-04-15 17:47:13,590 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:47:13,590 | INFO |    Uptime: 904s
+2026-04-15 17:47:13,591 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:47:13,591 | INFO |    API Calls: 0
+2026-04-15 17:47:13,591 | INFO |    WebSocket: Connected
+2026-04-15 17:47:13,591 | INFO |    Errors: 0
+2026-04-15 17:47:13,591 | INFO | ✅ Health report saved: health_report.json
+2026-04-15 17:48:04,509 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:48:04,509 | INFO |    Uptime: 905s
+2026-04-15 17:48:04,509 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:48:04,509 | INFO |    API Calls: 0
+2026-04-15 17:48:04,510 | INFO |    WebSocket: Connected
+2026-04-15 17:48:04,510 | INFO |    Errors: 0
+2026-04-15 17:48:04,510 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:48:04,510 | INFO |    Uptime: 905s
+2026-04-15 17:48:04,510 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:48:04,510 | INFO |    API Calls: 0
+2026-04-15 17:48:04,510 | INFO |    WebSocket: Connected
+2026-04-15 17:48:04,511 | INFO |    Errors: 0
+2026-04-15 17:48:04,511 | INFO | ✅ Health report saved: health_report.json
+2026-04-15 17:50:07,695 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-15 17:50:07,825 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-15 17:50:07,827 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:50:07,827 | INFO |    Uptime: 1078s
+2026-04-15 17:50:07,827 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:50:07,827 | INFO |    API Calls: 0
+2026-04-15 17:50:07,827 | INFO |    WebSocket: Connected
+2026-04-15 17:50:07,827 | INFO |    Errors: 0
+2026-04-15 17:50:07,828 | INFO | ✅ Health report saved: health_report.json
+2026-04-15 17:50:07,828 | INFO | ✅ Performance report saved: performance_report.json
+2026-04-15 17:50:07,828 | INFO | 🛑 Hybrid Bot stopped
+2026-04-15 17:50:07,828 | INFO | ✅ Bot stopped cleanly
+2026-04-15 17:50:08,073 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-15 17:50:08,073 | INFO | Loaded saved state for BTC-USD
+2026-04-15 17:50:08,073 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-15 17:50:08,073 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-15 17:50:08,074 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-15 17:50:08,074 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-15 17:50:08,074 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-15 17:50:08,074 | INFO | 📊 Portfolio Setup:
+2026-04-15 17:50:08,074 | INFO |    Buying Power: $10.00
+2026-04-15 17:50:08,074 | INFO |    Target Exposure: $0.80
+2026-04-15 17:50:08,074 | INFO |    Current Price: $44955.00
+2026-04-15 17:50:08,074 | INFO | 📈 Placing 20 grid orders in parallel...
+2026-04-15 17:50:08,078 | INFO | Grid placed in 0.003s (6392.8 orders/sec)
+2026-04-15 17:50:08,624 | INFO | Websocket connected
+2026-04-15 17:50:08,625 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-15 17:53:09,191 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:53:09,191 | INFO |    Uptime: 1210s
+2026-04-15 17:53:09,192 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:53:09,192 | INFO |    API Calls: 0
+2026-04-15 17:53:09,192 | INFO |    WebSocket: Connected
+2026-04-15 17:53:09,192 | INFO |    Errors: 0
+2026-04-15 17:53:09,192 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:53:09,193 | INFO |    Uptime: 1210s
+2026-04-15 17:53:09,193 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:53:09,193 | INFO |    API Calls: 0
+2026-04-15 17:53:09,193 | INFO |    WebSocket: Connected
+2026-04-15 17:53:09,193 | INFO |    Errors: 0
+2026-04-15 17:53:09,194 | INFO | ✅ Health report saved: health_report.json
+2026-04-15 17:55:12,250 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:55:12,250 | INFO |    Uptime: 304s
+2026-04-15 17:55:12,251 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:55:12,251 | INFO |    API Calls: 0
+2026-04-15 17:55:12,251 | INFO |    WebSocket: Connected
+2026-04-15 17:55:12,251 | INFO |    Errors: 0
+2026-04-15 17:55:12,251 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:55:12,251 | INFO |    Uptime: 304s
+2026-04-15 17:55:12,251 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:55:12,251 | INFO |    API Calls: 0
+2026-04-15 17:55:12,251 | INFO |    WebSocket: Connected
+2026-04-15 17:55:12,252 | INFO |    Errors: 0
+2026-04-15 17:55:12,252 | INFO | ✅ Health report saved: health_report.json
+2026-04-15 17:58:10,464 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:58:10,464 | INFO |    Uptime: 1511s
+2026-04-15 17:58:10,464 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:58:10,464 | INFO |    API Calls: 0
+2026-04-15 17:58:10,464 | INFO |    WebSocket: Connected
+2026-04-15 17:58:10,464 | INFO |    Errors: 0
+2026-04-15 17:58:10,464 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 17:58:10,465 | INFO |    Uptime: 1511s
+2026-04-15 17:58:10,465 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 17:58:10,465 | INFO |    API Calls: 0
+2026-04-15 17:58:10,465 | INFO |    WebSocket: Connected
+2026-04-15 17:58:10,465 | INFO |    Errors: 0
+2026-04-15 17:58:10,466 | INFO | ✅ Health report saved: health_report.json
+2026-04-15 18:00:12,910 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 18:00:12,910 | INFO |    Uptime: 604s
+2026-04-15 18:00:12,910 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 18:00:12,910 | INFO |    API Calls: 0
+2026-04-15 18:00:12,911 | INFO |    WebSocket: Connected
+2026-04-15 18:00:12,911 | INFO |    Errors: 0
+2026-04-15 18:00:12,911 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 18:00:12,911 | INFO |    Uptime: 604s
+2026-04-15 18:00:12,911 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 18:00:12,911 | INFO |    API Calls: 0
+2026-04-15 18:00:12,911 | INFO |    WebSocket: Connected
+2026-04-15 18:00:12,911 | INFO |    Errors: 0
+2026-04-15 18:00:12,912 | INFO | ✅ Health report saved: health_report.json
+2026-04-15 18:03:10,791 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 18:03:10,791 | INFO |    Uptime: 1811s
+2026-04-15 18:03:10,791 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 18:03:10,791 | INFO |    API Calls: 0
+2026-04-15 18:03:10,791 | INFO |    WebSocket: Connected
+2026-04-15 18:03:10,791 | INFO |    Errors: 0
+2026-04-15 18:03:10,792 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 18:03:10,792 | INFO |    Uptime: 1811s
+2026-04-15 18:03:10,792 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 18:03:10,792 | INFO |    API Calls: 0
+2026-04-15 18:03:10,792 | INFO |    WebSocket: Connected
+2026-04-15 18:03:10,792 | INFO |    Errors: 0
+2026-04-15 18:03:10,793 | INFO | ✅ Health report saved: health_report.json
+2026-04-15 18:05:15,115 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 18:05:15,115 | INFO |    Uptime: 907s
+2026-04-15 18:05:15,116 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 18:05:15,116 | INFO |    API Calls: 0
+2026-04-15 18:05:15,116 | INFO |    WebSocket: Connected
+2026-04-15 18:05:15,116 | INFO |    Errors: 0
+2026-04-15 18:05:15,116 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 18:05:15,116 | INFO |    Uptime: 907s
+2026-04-15 18:05:15,116 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 18:05:15,117 | INFO |    API Calls: 0
+2026-04-15 18:05:15,117 | INFO |    WebSocket: Connected
+2026-04-15 18:05:15,117 | INFO |    Errors: 0
+2026-04-15 18:05:15,118 | INFO | ✅ Health report saved: health_report.json
+2026-04-15 18:06:45,351 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-15 18:06:45,351 | INFO | Loaded saved state for BTC-USD
+2026-04-15 18:06:45,352 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-15 18:06:45,352 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-15 18:06:45,352 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-15 18:06:45,352 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-15 18:06:45,352 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-15 18:06:45,353 | INFO | 📊 Portfolio Setup:
+2026-04-15 18:06:45,353 | INFO |    Buying Power: $10.00
+2026-04-15 18:06:45,353 | INFO |    Target Exposure: $0.80
+2026-04-15 18:06:45,353 | INFO |    Current Price: $44955.00
+2026-04-15 18:06:45,354 | INFO | 📈 Placing 20 grid orders in parallel...
+2026-04-15 18:06:45,356 | INFO | Grid placed in 0.002s (8722.7 orders/sec)
+2026-04-15 18:06:45,890 | INFO | Websocket connected
+2026-04-15 18:06:45,890 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-15 18:06:45,892 | INFO | Websocket connected
+2026-04-15 18:06:45,893 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-15 18:16:24,652 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-15 18:16:24,653 | INFO | Loaded saved state for BTC-USD
+2026-04-15 18:16:24,653 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-15 18:16:24,653 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-15 18:16:24,654 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-15 18:16:24,654 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-15 18:16:24,654 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-15 18:16:24,655 | INFO | 📊 Portfolio Setup:
+2026-04-15 18:16:24,655 | INFO |    Buying Power: $10.00
+2026-04-15 18:16:24,655 | INFO |    Target Exposure: $0.80
+2026-04-15 18:16:24,655 | INFO |    Current Price: $44955.00
+2026-04-15 18:16:24,655 | INFO | 📈 Placing 20 grid orders in parallel...
+2026-04-15 18:16:24,658 | INFO | Grid placed in 0.003s (7879.6 orders/sec)
+2026-04-15 18:16:25,327 | INFO | Websocket connected
+2026-04-15 18:16:25,330 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-15 18:16:25,355 | INFO | Websocket connected
+2026-04-15 18:16:25,356 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-15 18:16:46,393 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 18:16:46,393 | INFO |    Uptime: 601s
+2026-04-15 18:16:46,393 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 18:16:46,393 | INFO |    API Calls: 0
+2026-04-15 18:16:46,393 | INFO |    WebSocket: Connected
+2026-04-15 18:16:46,394 | INFO |    Errors: 0
+2026-04-15 18:16:46,394 | INFO | ✅ Health Status: HEALTHY
+2026-04-15 18:16:46,394 | INFO |    Uptime: 601s
+2026-04-15 18:16:46,394 | INFO |    Orders: 0 | Trades: 0
+2026-04-15 18:16:46,394 | INFO |    API Calls: 0
+2026-04-15 18:16:46,394 | INFO |    WebSocket: Connected
+2026-04-15 18:16:46,394 | INFO |    Errors: 0
+2026-04-15 18:16:46,395 | INFO | ✅ Health report saved: health_report.json

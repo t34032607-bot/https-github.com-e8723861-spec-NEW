@@ -33,8 +33,8 @@ nano .env
 
 ```env
 # API Credentials
-CRYPTO_API_KEY=your_binance_api_key_here
-CRYPTO_API_SECRET=your_binance_api_secret_here
+CRYPTO_API_KEY=y5mYCDHRdMY1kBljj8ZfUZGEXvX0LHq2yAhqDzyP37AuH0fF3KMWjnEvFNaOp1n9mour_binance_api_key_here
+CRYPTO_API_SECRET=MwJAlHsNCQQ2RJ1JpUIj3bSoKlxDR7wiYiWiEyia16jXRPSrlPpJtxAmWc5M4pmiyour_binance_api_secret_here
 
 # LIVE TRADING MODE
 PAPER_TRADING=false

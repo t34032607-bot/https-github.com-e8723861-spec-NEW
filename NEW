@@ -71,6 +71,8 @@ class HybridDCAInfinityGrid:
         self.running = False
         self.monitor_thread = None
         self.user_ws = None
+        self.ticker_ws = None
+        self.last_price: float = 0.0
         self.symbol_info = self._fetch_symbol_info()
 
         # Monitoring and notifications
@@ -185,6 +187,9 @@ class HybridDCAInfinityGrid:
         # Start real-time User Data Stream
         self._start_user_data_stream()
 
+        # Start real-time ticker stream for instant price feeds
+        self._start_ticker_stream()
+
         # Initial setup
         buy_p, sell_p, _ = self.api.get_price([self.symbol])
         current_price = buy_p.get(self.symbol) or sell_p.get(self.symbol) or 0
@@ -243,6 +248,46 @@ class HybridDCAInfinityGrid:
 
         except Exception as e:
             logger.error(f"Failed to start User Data Stream: {e}")
+
+    def _start_ticker_stream(self):
+        """Real-time ticker stream for instant price updates (eliminates polling)"""
+        try:
+            ticker_symbol = self.binance_symbol.lower()
+            ws_url = f"wss://stream.binance.com:9443/ws/{ticker_symbol}@ticker"
+            
+            logger.info(f"📡 Connecting to ticker stream: {ws_url}")
+            self.ticker_ws = websocket.WebSocketApp(
+                ws_url,
+                on_message=self._on_ticker_message,
+                on_error=self._on_ticker_error,
+                on_close=self._on_ticker_close,
+                on_open=self._on_ticker_open
+            )
+            
+            ws_thread = threading.Thread(target=self.ticker_ws.run_forever, daemon=True, kwargs={"ping_interval": 30})
+            ws_thread.start()
+            logger.info("⚡ Real-time ticker stream started (instant price updates enabled)")
+            
+        except Exception as e:
+            logger.warning(f"Ticker stream init failed: {e}")
+
+    def _on_ticker_open(self, ws):
+        logger.info("✅ Ticker WebSocket connected - real-time prices ACTIVE")
+
+    def _on_ticker_message(self, ws, message: str):
+        try:
+            data = json.loads(message)
+            # Extract current price from ticker
+            self.last_price = float(data.get("c", 0))
+            logger.debug(f"⚡ Price update: ${self.last_price:.2f}")
+        except Exception as e:
+            logger.debug(f"Ticker parse error: {e}")
+
+    def _on_ticker_error(self, ws, error):
+        logger.warning(f"⚠️ Ticker error: {error}")
+
+    def _on_ticker_close(self, ws, close_status, close_msg):
+        logger.warning("⚠️ Ticker stream closed - attempting reconnect...")
 
     def _on_user_ws_open(self, ws):
         logger.info("✅ User Data WebSocket connected - instant fill detection ACTIVE")
@@ -389,7 +434,7 @@ class HybridDCAInfinityGrid:
         logger.info(f"📈 Placing {len(orders_to_place)} grid orders in parallel...")
         start_time = time.time()
         
-        with ThreadPoolExecutor(max_workers=8) as executor:
+        with ThreadPoolExecutor(max_workers=16) as executor:
             futures = [executor.submit(self._place_limit_order, side, price, qty, tag) 
                       for side, price, qty, tag in orders_to_place]
             # Wait for all to complete
@@ -431,7 +476,7 @@ class HybridDCAInfinityGrid:
                 signal = _read_long_dca_signal(self.base)
                 if signal < self.settings["min_signal_level"]:
                     # No signal - check less frequently
-                    time.sleep(random.uniform(5, 10))
+                    time.sleep(random.uniform(3, 5))
                     continue
 
                 # Signal present - check frequently for opportunities
@@ -446,8 +491,8 @@ class HybridDCAInfinityGrid:
                             logger.warning(f"Failed to send alert: {e}")
                     self.stop()
 
-                # Fast monitoring loop - check every 2-5 seconds
-                time.sleep(random.uniform(2, 5))
+                # Ultra-fast monitoring loop - check every 1-2 seconds (SPEED MODE)
+                time.sleep(random.uniform(1, 2))
             except Exception as e:
                 logger.error(f"Monitor error: {e}")
                 if self.health_monitor:
@@ -492,6 +537,8 @@ class HybridDCAInfinityGrid:
         self.running = False
         if self.user_ws:
             self.user_ws.close()
+        if self.ticker_ws:
+            self.ticker_ws.close()
         self._cancel_all_orders()
         self._save_state()
         

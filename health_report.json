@@ -1,0 +1,13 @@
+{
+  "status": "HEALTHY",
+  "timestamp": "2026-04-15T18:16:46.394212",
+  "uptime_seconds": 601,
+  "orders_placed": 0,
+  "trades_executed": 0,
+  "api_calls": 0,
+  "websocket_connected": true,
+  "last_price_update": null,
+  "last_fill_time": null,
+  "errors_count": 0,
+  "current_profit_loss": 0.0
+}
