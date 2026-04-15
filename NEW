@@ -12,8 +12,6 @@ from typing import Dict, Optional
 from your_powertrader_file import (
     CryptoAPITrading,
     _load_gui_settings,
-    _read_long_dca_signal,
-    _record_trade,           # Your existing trade recorder
     DCA_LEVELS,
     DCA_MULTIPLIER,
     MAX_DCA_BUYS_PER_24H,
@@ -211,7 +209,7 @@ class HybridDCAInfinityGrid:
 
             # Record using your original ledger
             try:
-                _record_trade(
+                self.api._record_trade(
                     side=side,
                     symbol=self.symbol,
                     qty=executed_qty,
@@ -299,7 +297,7 @@ class HybridDCAInfinityGrid:
                     self.daily_trades = 0
                     self.daily_reset_ts = now
 
-                signal = _read_long_dca_signal(self.base)
+                signal = self.api._read_long_dca_signal(self.base)
                 if signal < self.settings["min_signal_level"]:
                     time.sleep(60)
                     continue
