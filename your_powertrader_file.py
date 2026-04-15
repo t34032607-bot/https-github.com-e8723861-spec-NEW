@@ -47,7 +47,7 @@ class CryptoAPITrading:
         self.api_type = "spot"
         
         # Simulated account state for paper trading
-        self.simulated_balance = 10000.0  # $10k starting capital
+        self.simulated_balance = 10.0  # $10 starting capital
         self.simulated_positions = {}  # {symbol: qty}
         
         if paper_trading:
@@ -78,6 +78,13 @@ class CryptoAPITrading:
 
     def _simulate_api_call(self, method: str, endpoint: str, data: str = None) -> Dict[str, Any]:
         """Simulate API responses for paper trading"""
+        
+        # Server time endpoint
+        if "/time" in endpoint:
+            import time as time_module
+            return {
+                "serverTime": int(time_module.time() * 1000)
+            }
         
         # exchangeInfo endpoint
         if "exchangeInfo" in endpoint:

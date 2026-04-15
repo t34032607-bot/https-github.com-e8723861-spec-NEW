@@ -62,3 +62,190 @@
 2026-04-15 15:30:15,725 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
 2026-04-15 15:30:38,065 | WARNING | User Data WebSocket closed
 2026-04-15 15:30:38,066 | INFO | 🛑 Hybrid Bot stopped
+2026-04-15 15:35:08,786 | INFO | ✅ PAPER TRADING MODE ENABLED - Starting balance: $10000.0
+2026-04-15 15:35:08,786 | INFO | Loaded saved state for BTC-USD
+2026-04-15 15:35:08,786 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-15 15:35:08,787 | INFO | User Data Stream WebSocket started (real-time fills)
+2026-04-15 15:35:08,787 | INFO | [INITIAL] BUY limit @ 44955.0 | Qty: 0.005338
+2026-04-15 15:35:08,787 | INFO | [GRID_BUY] BUY limit @ 44550.4 | Qty: 0.001795
+2026-04-15 15:35:08,788 | INFO | [GRID_SELL] SELL limit @ 45359.6 | Qty: 0.001763
+2026-04-15 15:35:08,788 | INFO | [GRID_BUY] BUY limit @ 44145.81 | Qty: 0.001812
+2026-04-15 15:35:08,789 | INFO | [GRID_SELL] SELL limit @ 45764.19 | Qty: 0.001748
+2026-04-15 15:35:08,790 | INFO | [GRID_BUY] BUY limit @ 43741.22 | Qty: 0.001828
+2026-04-15 15:35:08,790 | INFO | [GRID_SELL] SELL limit @ 46168.78 | Qty: 0.0017319999999999998
+2026-04-15 15:35:08,790 | INFO | [GRID_BUY] BUY limit @ 43336.62 | Qty: 0.001846
+2026-04-15 15:35:08,790 | INFO | [GRID_SELL] SELL limit @ 46573.38 | Qty: 0.001717
+2026-04-15 15:35:08,790 | INFO | [GRID_BUY] BUY limit @ 42932.020000000004 | Qty: 0.0018629999999999999
+2026-04-15 15:35:08,790 | INFO | [GRID_SELL] SELL limit @ 46977.98 | Qty: 0.001702
+2026-04-15 15:35:08,790 | INFO | [GRID_BUY] BUY limit @ 42527.43 | Qty: 0.0018809999999999999
+2026-04-15 15:35:08,791 | INFO | [GRID_SELL] SELL limit @ 47382.57 | Qty: 0.0016879999999999998
+2026-04-15 15:35:08,791 | INFO | [GRID_BUY] BUY limit @ 42122.840000000004 | Qty: 0.0018989999999999999
+2026-04-15 15:35:08,791 | INFO | [GRID_SELL] SELL limit @ 47787.16 | Qty: 0.001674
+2026-04-15 15:35:08,791 | INFO | [GRID_BUY] BUY limit @ 41718.24 | Qty: 0.0019169999999999999
+2026-04-15 15:35:08,791 | INFO | [GRID_SELL] SELL limit @ 48191.76 | Qty: 0.00166
+2026-04-15 15:35:08,791 | INFO | [GRID_BUY] BUY limit @ 41313.64 | Qty: 0.001936
+2026-04-15 15:35:08,791 | INFO | [GRID_SELL] SELL limit @ 48596.36 | Qty: 0.001646
+2026-04-15 15:35:08,792 | INFO | [GRID_BUY] BUY limit @ 40909.05 | Qty: 0.001954
+2026-04-15 15:35:08,792 | INFO | [GRID_SELL] SELL limit @ 49000.950000000004 | Qty: 0.001632
+2026-04-15 15:35:08,792 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:35:09,446 | INFO | Websocket connected
+2026-04-15 15:35:09,448 | INFO | ✅ User Data WebSocket connected - instant fill detection active
+2026-04-15 15:35:38,793 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:36:08,793 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:36:38,793 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:37:08,794 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:37:38,794 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:38:08,794 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:38:38,795 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:38:54,772 | INFO | ✅ PAPER TRADING MODE ENABLED - Starting balance: $10000.0
+2026-04-15 15:38:54,772 | INFO | Loaded saved state for BTC-USD
+2026-04-15 15:38:54,772 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-15 15:38:54,773 | INFO | User Data Stream WebSocket started (real-time fills)
+2026-04-15 15:38:54,773 | INFO | [INITIAL] BUY limit @ 44955.0 | Qty: 0.005338
+2026-04-15 15:38:54,773 | INFO | [GRID_BUY] BUY limit @ 44550.4 | Qty: 0.001795
+2026-04-15 15:38:54,774 | INFO | [GRID_SELL] SELL limit @ 45359.6 | Qty: 0.001763
+2026-04-15 15:38:54,774 | INFO | [GRID_BUY] BUY limit @ 44145.81 | Qty: 0.001812
+2026-04-15 15:38:54,774 | INFO | [GRID_SELL] SELL limit @ 45764.19 | Qty: 0.001748
+2026-04-15 15:38:54,775 | INFO | [GRID_BUY] BUY limit @ 43741.22 | Qty: 0.001828
+2026-04-15 15:38:54,776 | INFO | [GRID_SELL] SELL limit @ 46168.78 | Qty: 0.0017319999999999998
+2026-04-15 15:38:54,776 | INFO | [GRID_BUY] BUY limit @ 43336.62 | Qty: 0.001846
+2026-04-15 15:38:54,776 | INFO | [GRID_SELL] SELL limit @ 46573.38 | Qty: 0.001717
+2026-04-15 15:38:54,776 | INFO | [GRID_BUY] BUY limit @ 42932.020000000004 | Qty: 0.0018629999999999999
+2026-04-15 15:38:54,776 | INFO | [GRID_SELL] SELL limit @ 46977.98 | Qty: 0.001702
+2026-04-15 15:38:54,777 | INFO | [GRID_BUY] BUY limit @ 42527.43 | Qty: 0.0018809999999999999
+2026-04-15 15:38:54,777 | INFO | [GRID_SELL] SELL limit @ 47382.57 | Qty: 0.0016879999999999998
+2026-04-15 15:38:54,777 | INFO | [GRID_BUY] BUY limit @ 42122.840000000004 | Qty: 0.0018989999999999999
+2026-04-15 15:38:54,777 | INFO | [GRID_SELL] SELL limit @ 47787.16 | Qty: 0.001674
+2026-04-15 15:38:54,777 | INFO | [GRID_BUY] BUY limit @ 41718.24 | Qty: 0.0019169999999999999
+2026-04-15 15:38:54,777 | INFO | [GRID_SELL] SELL limit @ 48191.76 | Qty: 0.00166
+2026-04-15 15:38:54,777 | INFO | [GRID_BUY] BUY limit @ 41313.64 | Qty: 0.001936
+2026-04-15 15:38:54,778 | INFO | [GRID_SELL] SELL limit @ 48596.36 | Qty: 0.001646
+2026-04-15 15:38:54,778 | INFO | [GRID_BUY] BUY limit @ 40909.05 | Qty: 0.001954
+2026-04-15 15:38:54,778 | INFO | [GRID_SELL] SELL limit @ 49000.950000000004 | Qty: 0.001632
+2026-04-15 15:38:55,441 | INFO | Websocket connected
+2026-04-15 15:38:55,442 | INFO | ✅ User Data WebSocket connected - instant fill detection active
+2026-04-15 15:39:08,795 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:39:38,795 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:40:08,796 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:40:38,796 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:41:08,796 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:41:30,129 | INFO | ✅ PAPER TRADING MODE ENABLED - Starting balance: $10.0
+2026-04-15 15:41:30,129 | INFO | Loaded saved state for BTC-USD
+2026-04-15 15:41:30,129 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-15 15:41:30,130 | INFO | User Data Stream WebSocket started (real-time fills)
+2026-04-15 15:41:30,130 | INFO | [INITIAL] BUY limit @ 44955.0 | Qty: 4.9999999999999996e-06
+2026-04-15 15:41:30,130 | INFO | [GRID_BUY] BUY limit @ 44550.4 | Qty: 1e-06
+2026-04-15 15:41:30,131 | INFO | [GRID_SELL] SELL limit @ 45359.6 | Qty: 1e-06
+2026-04-15 15:41:30,131 | INFO | [GRID_BUY] BUY limit @ 44145.81 | Qty: 1e-06
+2026-04-15 15:41:30,131 | INFO | [GRID_SELL] SELL limit @ 45764.19 | Qty: 1e-06
+2026-04-15 15:41:30,132 | INFO | [GRID_BUY] BUY limit @ 43741.22 | Qty: 1e-06
+2026-04-15 15:41:30,132 | INFO | [GRID_SELL] SELL limit @ 46168.78 | Qty: 1e-06
+2026-04-15 15:41:30,133 | INFO | [GRID_BUY] BUY limit @ 43336.62 | Qty: 1e-06
+2026-04-15 15:41:30,133 | INFO | [GRID_SELL] SELL limit @ 46573.38 | Qty: 1e-06
+2026-04-15 15:41:30,133 | INFO | [GRID_BUY] BUY limit @ 42932.020000000004 | Qty: 1e-06
+2026-04-15 15:41:30,133 | INFO | [GRID_SELL] SELL limit @ 46977.98 | Qty: 1e-06
+2026-04-15 15:41:30,133 | INFO | [GRID_BUY] BUY limit @ 42527.43 | Qty: 1e-06
+2026-04-15 15:41:30,133 | INFO | [GRID_SELL] SELL limit @ 47382.57 | Qty: 1e-06
+2026-04-15 15:41:30,134 | INFO | [GRID_BUY] BUY limit @ 42122.840000000004 | Qty: 1e-06
+2026-04-15 15:41:30,134 | INFO | [GRID_SELL] SELL limit @ 47787.16 | Qty: 1e-06
+2026-04-15 15:41:30,134 | INFO | [GRID_BUY] BUY limit @ 41718.24 | Qty: 1e-06
+2026-04-15 15:41:30,134 | INFO | [GRID_SELL] SELL limit @ 48191.76 | Qty: 1e-06
+2026-04-15 15:41:30,134 | INFO | [GRID_BUY] BUY limit @ 41313.64 | Qty: 1e-06
+2026-04-15 15:41:30,134 | INFO | [GRID_SELL] SELL limit @ 48596.36 | Qty: 1e-06
+2026-04-15 15:41:30,134 | INFO | [GRID_BUY] BUY limit @ 40909.05 | Qty: 1e-06
+2026-04-15 15:41:30,135 | INFO | [GRID_SELL] SELL limit @ 49000.950000000004 | Qty: 1e-06
+2026-04-15 15:41:30,678 | INFO | Websocket connected
+2026-04-15 15:41:30,678 | INFO | ✅ User Data WebSocket connected - instant fill detection active
+2026-04-15 15:41:38,797 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:42:08,797 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:42:38,798 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:43:08,798 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:43:38,798 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:44:08,799 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:44:38,799 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:44:48,976 | INFO | ✅ PAPER TRADING MODE ENABLED - Starting balance: $10.0
+2026-04-15 15:44:48,976 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-15 15:44:48,977 | INFO | User Data Stream WebSocket started (real-time fills)
+2026-04-15 15:44:48,977 | INFO | [INITIAL] BUY limit @ 44955.0 | Qty: 4.9999999999999996e-06
+2026-04-15 15:44:48,977 | INFO | [GRID_BUY] BUY limit @ 44550.4 | Qty: 1e-06
+2026-04-15 15:44:48,978 | INFO | [GRID_SELL] SELL limit @ 45359.6 | Qty: 1e-06
+2026-04-15 15:44:48,978 | INFO | [GRID_BUY] BUY limit @ 44145.81 | Qty: 1e-06
+2026-04-15 15:44:48,978 | INFO | [GRID_SELL] SELL limit @ 45764.19 | Qty: 1e-06
+2026-04-15 15:44:48,978 | INFO | [GRID_BUY] BUY limit @ 43741.22 | Qty: 1e-06
+2026-04-15 15:44:48,979 | INFO | [GRID_SELL] SELL limit @ 46168.78 | Qty: 1e-06
+2026-04-15 15:44:48,980 | INFO | [GRID_BUY] BUY limit @ 43336.62 | Qty: 1e-06
+2026-04-15 15:44:48,980 | INFO | [GRID_SELL] SELL limit @ 46573.38 | Qty: 1e-06
+2026-04-15 15:44:48,980 | INFO | [GRID_BUY] BUY limit @ 42932.020000000004 | Qty: 1e-06
+2026-04-15 15:44:48,980 | INFO | [GRID_SELL] SELL limit @ 46977.98 | Qty: 1e-06
+2026-04-15 15:44:48,980 | INFO | [GRID_BUY] BUY limit @ 42527.43 | Qty: 1e-06
+2026-04-15 15:44:48,980 | INFO | [GRID_SELL] SELL limit @ 47382.57 | Qty: 1e-06
+2026-04-15 15:44:48,981 | INFO | [GRID_BUY] BUY limit @ 42122.840000000004 | Qty: 1e-06
+2026-04-15 15:44:48,981 | INFO | [GRID_SELL] SELL limit @ 47787.16 | Qty: 1e-06
+2026-04-15 15:44:48,981 | INFO | [GRID_BUY] BUY limit @ 41718.24 | Qty: 1e-06
+2026-04-15 15:44:48,981 | INFO | [GRID_SELL] SELL limit @ 48191.76 | Qty: 1e-06
+2026-04-15 15:44:48,981 | INFO | [GRID_BUY] BUY limit @ 41313.64 | Qty: 1e-06
+2026-04-15 15:44:48,981 | INFO | [GRID_SELL] SELL limit @ 48596.36 | Qty: 1e-06
+2026-04-15 15:44:48,982 | INFO | [GRID_BUY] BUY limit @ 40909.05 | Qty: 1e-06
+2026-04-15 15:44:48,982 | INFO | [GRID_SELL] SELL limit @ 49000.950000000004 | Qty: 1e-06
+2026-04-15 15:44:49,530 | INFO | Websocket connected
+2026-04-15 15:44:49,530 | INFO | ✅ User Data WebSocket connected - instant fill detection active
+2026-04-15 15:45:08,800 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:45:38,800 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:45:45,570 | INFO | ✅ PAPER TRADING MODE ENABLED - Starting balance: $10.0
+2026-04-15 15:45:45,571 | INFO | Loaded saved state for BTC-USD
+2026-04-15 15:45:45,571 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-15 15:45:45,571 | INFO | User Data Stream WebSocket started (real-time fills)
+2026-04-15 15:45:45,571 | INFO | [INITIAL] BUY limit @ 44955.0 | Qty: 4.9999999999999996e-06
+2026-04-15 15:45:45,572 | INFO | [GRID_BUY] BUY limit @ 44550.4 | Qty: 1e-06
+2026-04-15 15:45:45,572 | INFO | [GRID_SELL] SELL limit @ 45359.6 | Qty: 1e-06
+2026-04-15 15:45:45,572 | INFO | [GRID_BUY] BUY limit @ 44145.81 | Qty: 1e-06
+2026-04-15 15:45:45,573 | INFO | [GRID_SELL] SELL limit @ 45764.19 | Qty: 1e-06
+2026-04-15 15:45:45,574 | INFO | [GRID_BUY] BUY limit @ 43741.22 | Qty: 1e-06
+2026-04-15 15:45:45,574 | INFO | [GRID_SELL] SELL limit @ 46168.78 | Qty: 1e-06
+2026-04-15 15:45:45,574 | INFO | [GRID_BUY] BUY limit @ 43336.62 | Qty: 1e-06
+2026-04-15 15:45:45,574 | INFO | [GRID_SELL] SELL limit @ 46573.38 | Qty: 1e-06
+2026-04-15 15:45:45,575 | INFO | [GRID_BUY] BUY limit @ 42932.020000000004 | Qty: 1e-06
+2026-04-15 15:45:45,575 | INFO | [GRID_SELL] SELL limit @ 46977.98 | Qty: 1e-06
+2026-04-15 15:45:45,575 | INFO | [GRID_BUY] BUY limit @ 42527.43 | Qty: 1e-06
+2026-04-15 15:45:45,575 | INFO | [GRID_SELL] SELL limit @ 47382.57 | Qty: 1e-06
+2026-04-15 15:45:45,575 | INFO | [GRID_BUY] BUY limit @ 42122.840000000004 | Qty: 1e-06
+2026-04-15 15:45:45,575 | INFO | [GRID_SELL] SELL limit @ 47787.16 | Qty: 1e-06
+2026-04-15 15:45:45,576 | INFO | [GRID_BUY] BUY limit @ 41718.24 | Qty: 1e-06
+2026-04-15 15:45:45,576 | INFO | [GRID_SELL] SELL limit @ 48191.76 | Qty: 1e-06
+2026-04-15 15:45:45,576 | INFO | [GRID_BUY] BUY limit @ 41313.64 | Qty: 1e-06
+2026-04-15 15:45:45,576 | INFO | [GRID_SELL] SELL limit @ 48596.36 | Qty: 1e-06
+2026-04-15 15:45:45,576 | INFO | [GRID_BUY] BUY limit @ 40909.05 | Qty: 1e-06
+2026-04-15 15:45:45,576 | INFO | [GRID_SELL] SELL limit @ 49000.950000000004 | Qty: 1e-06
+2026-04-15 15:45:46,120 | INFO | Websocket connected
+2026-04-15 15:45:46,120 | INFO | ✅ User Data WebSocket connected - instant fill detection active
+2026-04-15 15:46:08,800 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:46:38,801 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'
+2026-04-15 15:46:43,083 | INFO | ✅ PAPER TRADING MODE ENABLED - Starting balance: $10.0
+2026-04-15 15:46:43,083 | INFO | Loaded saved state for BTC-USD
+2026-04-15 15:46:43,083 | INFO | ✅ Server time synchronized (skew: 1ms)
+2026-04-15 15:46:43,083 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-15 15:46:43,084 | INFO | User Data Stream WebSocket started (real-time fills)
+2026-04-15 15:46:43,084 | INFO | [INITIAL] BUY limit @ 44955.0 | Qty: 4.9999999999999996e-06
+2026-04-15 15:46:43,084 | INFO | [GRID_BUY] BUY limit @ 44550.4 | Qty: 1e-06
+2026-04-15 15:46:43,085 | INFO | [GRID_SELL] SELL limit @ 45359.6 | Qty: 1e-06
+2026-04-15 15:46:43,085 | INFO | [GRID_BUY] BUY limit @ 44145.81 | Qty: 1e-06
+2026-04-15 15:46:43,085 | INFO | [GRID_SELL] SELL limit @ 45764.19 | Qty: 1e-06
+2026-04-15 15:46:43,086 | INFO | [GRID_BUY] BUY limit @ 43741.22 | Qty: 1e-06
+2026-04-15 15:46:43,086 | INFO | [GRID_SELL] SELL limit @ 46168.78 | Qty: 1e-06
+2026-04-15 15:46:43,087 | INFO | [GRID_BUY] BUY limit @ 43336.62 | Qty: 1e-06
+2026-04-15 15:46:43,087 | INFO | [GRID_SELL] SELL limit @ 46573.38 | Qty: 1e-06
+2026-04-15 15:46:43,087 | INFO | [GRID_BUY] BUY limit @ 42932.020000000004 | Qty: 1e-06
+2026-04-15 15:46:43,087 | INFO | [GRID_SELL] SELL limit @ 46977.98 | Qty: 1e-06
+2026-04-15 15:46:43,087 | INFO | [GRID_BUY] BUY limit @ 42527.43 | Qty: 1e-06
+2026-04-15 15:46:43,087 | INFO | [GRID_SELL] SELL limit @ 47382.57 | Qty: 1e-06
+2026-04-15 15:46:43,088 | INFO | [GRID_BUY] BUY limit @ 42122.840000000004 | Qty: 1e-06
+2026-04-15 15:46:43,088 | INFO | [GRID_SELL] SELL limit @ 47787.16 | Qty: 1e-06
+2026-04-15 15:46:43,088 | INFO | [GRID_BUY] BUY limit @ 41718.24 | Qty: 1e-06
+2026-04-15 15:46:43,088 | INFO | [GRID_SELL] SELL limit @ 48191.76 | Qty: 1e-06
+2026-04-15 15:46:43,088 | INFO | [GRID_BUY] BUY limit @ 41313.64 | Qty: 1e-06
+2026-04-15 15:46:43,088 | INFO | [GRID_SELL] SELL limit @ 48596.36 | Qty: 1e-06
+2026-04-15 15:46:43,089 | INFO | [GRID_BUY] BUY limit @ 40909.05 | Qty: 1e-06
+2026-04-15 15:46:43,089 | INFO | [GRID_SELL] SELL limit @ 49000.950000000004 | Qty: 1e-06
+2026-04-15 15:46:43,606 | INFO | Websocket connected
+2026-04-15 15:46:43,606 | INFO | ✅ User Data WebSocket connected - instant fill detection active
+2026-04-15 15:47:08,802 | ERROR | Monitor error: 'CryptoAPITrading' object has no attribute '_read_long_dca_signal'

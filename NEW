@@ -12,6 +12,8 @@ from typing import Dict, Optional
 from your_powertrader_file import (
     CryptoAPITrading,
     _load_gui_settings,
+    _read_long_dca_signal,
+    _record_trade,
     DCA_LEVELS,
     DCA_MULTIPLIER,
     MAX_DCA_BUYS_PER_24H,
@@ -110,6 +112,28 @@ class HybridDCAInfinityGrid:
             except Exception as e:
                 logger.warning(f"State load failed: {e}")
 
+    def _sync_server_time(self):
+        """Sync local time with Binance server to prevent order rejection"""
+        try:
+            # Get server time from Binance
+            resp = self.api.make_api_request("GET", "/api/v3/time")
+            if resp and "serverTime" in resp:
+                server_time_ms = resp["serverTime"]
+                server_time = server_time_ms / 1000.0
+                local_time = time.time()
+                time_diff_ms = abs((server_time - local_time) * 1000)
+                
+                if time_diff_ms > 5000:  # Warn if difference > 5 seconds
+                    logger.warning(
+                        f"⏰ Time skew detected: {time_diff_ms:.0f}ms difference. "
+                        f"Local: {local_time:.3f}, Server: {server_time:.3f}. "
+                        f"For live trading, sync your system clock: ntpdate -s time.nist.gov"
+                    )
+                else:
+                    logger.info(f"✅ Server time synchronized (skew: {time_diff_ms:.0f}ms)")
+        except Exception as e:
+            logger.warning(f"Could not sync server time: {e}")
+
     def _save_state(self):
         try:
             data = {
@@ -126,6 +150,10 @@ class HybridDCAInfinityGrid:
     def start(self):
         if self.running: return
         self.running = True
+        
+        # Sync time with server for live trading
+        self._sync_server_time()
+        
         logger.info(f"🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on {self.symbol}")
 
         # Start real-time User Data Stream
@@ -209,7 +237,7 @@ class HybridDCAInfinityGrid:
 
             # Record using your original ledger
             try:
-                self.api._record_trade(
+                _record_trade(
                     side=side,
                     symbol=self.symbol,
                     qty=executed_qty,
@@ -297,7 +325,7 @@ class HybridDCAInfinityGrid:
                     self.daily_trades = 0
                     self.daily_reset_ts = now
 
-                signal = self.api._read_long_dca_signal(self.base)
+                signal = _read_long_dca_signal(self.base)
                 if signal < self.settings["min_signal_level"]:
                     time.sleep(60)
                     continue

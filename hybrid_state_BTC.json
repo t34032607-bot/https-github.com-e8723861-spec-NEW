@@ -1,6 +1,6 @@
 {
-  "target_usd_exposure": 800.0,
+  "target_usd_exposure": 0.8,
   "lower_price_floor": 35064.9,
   "dca_stages_triggered": [],
-  "last_updated": 1776267038.065624
+  "last_updated": 1776268003.089264
 }
