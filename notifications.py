@@ -10,7 +10,7 @@ import smtplib
 import requests
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Optional, Dict, Any
 
 logger = logging.getLogger("Notifications")
@@ -92,7 +92,7 @@ class NotificationManager:
     
     def send_dca_alert(self, level: float, symbol: str):
         """Send DCA trigger alert"""
-        message = f"🚀 DCA TRIGGERED: {symbol} at level {level}%\nTime: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}"
+        message = f"🚀 DCA TRIGGERED: {symbol} at level {level}%\nTime: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}"
         
         if self.discord_enabled:
             self._send_discord(message, "DCA", color=0xFF9900)
@@ -105,7 +105,7 @@ class NotificationManager:
     
     def send_profit_release_alert(self, profit_pct: float, symbol: str):
         """Send profit release/take profit alert"""
-        message = f"💰 PROFIT RELEASE: {symbol} Profit: {profit_pct:.2f}%\nTime: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}"
+        message = f"💰 PROFIT RELEASE: {symbol} Profit: {profit_pct:.2f}%\nTime: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}"
         
         if self.discord_enabled:
             self._send_discord(message, "PROFIT", color=0x00FF00)
@@ -118,7 +118,7 @@ class NotificationManager:
     
     def send_error_alert(self, error_message: str):
         """Send critical error alert"""
-        message = f"⚠️ BOT ERROR:\n{error_message}\nTime: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}"
+        message = f"⚠️ BOT ERROR:\n{error_message}\nTime: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}"
         
         if self.discord_enabled:
             self._send_discord(message, "ERROR", color=0xFF0000)
@@ -170,7 +170,7 @@ Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}
                 "title": f"🤖 {alert_type}",
                 "description": message,
                 "color": color,
-                "timestamp": datetime.utcnow().isoformat()
+                "timestamp": datetime.now(timezone.utc).isoformat()
             }
             
             payload = {"embeds": [embed]}
@@ -206,7 +206,7 @@ Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}
         try:
             payload = {
                 "text": message,
-                "timestamp": datetime.utcnow().isoformat(),
+                "timestamp": datetime.now(timezone.utc).isoformat(),
                 "source": "HybridDCABot"
             }
             
