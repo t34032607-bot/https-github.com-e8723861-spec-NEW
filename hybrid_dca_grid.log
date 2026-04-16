@@ -1006,3 +1006,19 @@
 2026-04-16 16:43:33,558 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
 2026-04-16 16:43:33,570 | INFO | Websocket connected
 2026-04-16 16:43:33,570 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-16 16:48:58,765 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-16 16:48:59,044 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-16 16:48:59,134 | INFO | 🛑 Hybrid Bot stopped
+2026-04-16 16:48:59,134 | INFO | ✅ Bot stopped cleanly
+2026-04-16 16:48:59,272 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-16 16:48:59,272 | INFO | Loaded saved state for BTC-USD
+2026-04-16 16:48:59,272 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-16 16:48:59,273 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-16 16:48:59,273 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-16 16:48:59,274 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-16 16:48:59,275 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-16 16:48:59,275 | INFO | 📊 Spot Balance Loaded | Buying Power: $10.00 | Cash: $10.00 | Total: $10.00
+2026-04-16 16:48:59,844 | INFO | Websocket connected
+2026-04-16 16:48:59,845 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-16 16:48:59,857 | INFO | Websocket connected
+2026-04-16 16:48:59,857 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
