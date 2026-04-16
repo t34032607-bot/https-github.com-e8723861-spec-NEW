@@ -124,6 +124,57 @@ class HybridDCAInfinityGrid:
             "max_dca_buys_per_24h": base.get("max_dca_buys_per_24h", MAX_DCA_BUYS_PER_24H),
         }
 
+    def _display_account_balance(self, acct: dict):
+        """Show spot account balance when API keys are loaded"""
+        try:
+            if not isinstance(acct, dict):
+                logger.warning("Unable to display account balance, response is not a dict")
+                return
+
+            buying_power = float(acct.get("buying_power", 0.0))
+            cash = float(acct.get("cash", buying_power))
+            total_value = float(acct.get("total_account_value", buying_power))
+
+            logger.info(f"📊 Spot Balance Loaded | Buying Power: ${buying_power:.2f} | Cash: ${cash:.2f} | Total: ${total_value:.2f}")
+            print()
+            print("💰 Spot Account Balance")
+            print(f"  Available USD: ${buying_power:.2f}")
+            print(f"  Cash: ${cash:.2f}")
+            print(f"  Total Account Value: ${total_value:.2f}")
+            print()
+        except Exception as e:
+            logger.warning(f"Account balance display failed: {e}")
+
+    def _prompt_trade_amount(self, buying_power: float) -> float:
+        """Ask the user how much USD to trade with"""
+        default_amount = buying_power * self.settings.get("target_usd_pct", 0.08)
+
+        while True:
+            try:
+                raw = input(
+                    f"Enter trade amount in USD (max ${buying_power:.2f}) or percent (e.g. 10%): "
+                ).strip()
+                if raw == "":
+                    print(f"Using default trade amount: ${default_amount:.2f}\n")
+                    return min(default_amount, buying_power)
+
+                if raw.endswith("%"):
+                    amount = float(raw[:-1].strip()) / 100.0 * buying_power
+                else:
+                    amount = float(raw)
+
+                if amount <= 0:
+                    print("Amount must be greater than 0.")
+                    continue
+                if amount > buying_power:
+                    print("Amount cannot exceed available buying power.")
+                    continue
+
+                print(f"Using trade amount: ${amount:.2f}\n")
+                return amount
+            except ValueError:
+                print("Invalid input. Enter a dollar amount or percentage like 10%.")
+
     def _load_state(self):
         if os.path.isfile(self.state_file):
             try:
@@ -203,8 +254,11 @@ class HybridDCAInfinityGrid:
             return
 
         acct = self.api.get_account()
+        if isinstance(acct, dict):
+            self._display_account_balance(acct)
+
         buying_power = float(acct.get("buying_power", 0)) if isinstance(acct, dict) else 0
-        self.target_usd_exposure = buying_power * self.settings["target_usd_pct"]
+        self.target_usd_exposure = self._prompt_trade_amount(buying_power) if buying_power > 0 else 0
         self.peak_exposure = self.target_usd_exposure
         self.lower_price_floor = current_price * self.settings["lower_floor_pct"]
 
