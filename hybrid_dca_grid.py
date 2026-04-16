@@ -39,6 +39,9 @@ from your_powertrader_file import (
     TRAILING_GAP_PCT
 )
 
+# Default runtime configuration
+MONITOR_INTERVAL_SEC = 1.0
+
 # ====================== LOGGING SETUP ======================
 def setup_logging(base: str):
     """Setup comprehensive logging with audit trail"""
@@ -220,9 +223,11 @@ class HybridDCAInfinityGrid:
             api_secret=secrets.get("api_secret"),
             paper_trading=paper_trading
         )
+        self._display_account_balance()
         
         self.state_file = f"hybrid_state_{self.base}.json"
         self.settings = self._load_settings()
+        self.monitor_interval = float(self.settings.get("monitor_interval_sec", MONITOR_INTERVAL_SEC))
         
         # Position tracking
         self.position_tracker = PositionTracker(symbol)
@@ -294,6 +299,7 @@ class HybridDCAInfinityGrid:
             "dca_multiplier": base.get("dca_multiplier", DCA_MULTIPLIER),
             "dca_levels": base.get("dca_levels", DCA_LEVELS),
             "max_dca_buys_per_24h": base.get("max_dca_buys_per_24h", MAX_DCA_BUYS_PER_24H),
+            "monitor_interval_sec": base.get("monitor_interval_sec", MONITOR_INTERVAL_SEC),
         }
 
     def _start_price_websocket(self):
@@ -344,6 +350,73 @@ class HybridDCAInfinityGrid:
         except Exception as e:
             logger.error(f"State save failed: {e}")
 
+    def _display_account_balance(self):
+        """Show spot account balance when API keys are loaded"""
+        try:
+            acct = self.api.get_account()
+            if isinstance(acct, dict):
+                buying_power = float(acct.get("buying_power", 0.0))
+                cash = float(acct.get("cash", buying_power))
+                total_value = float(acct.get("total_account_value", buying_power))
+
+                logger.info(f"📊 Spot Balance Loaded | Buying Power: ${buying_power:.2f} | Cash: ${cash:.2f} | Total: ${total_value:.2f}")
+                print("\n💰 Spot Account Balance:")
+                print(f"  Available USD: ${buying_power:.2f}")
+                print(f"  Cash: ${cash:.2f}")
+                print(f"  Total Account Value: ${total_value:.2f}\n")
+                return buying_power
+
+        except Exception as e:
+            logger.warning(f"Account balance display failed: {e}")
+
+        logger.warning("Unable to load account balance")
+        return 0.0
+
+    def _prompt_trade_amount(self, buying_power: float) -> float:
+        """Ask the user how much USD to trade with"""
+        default_amount = buying_power * self.settings.get("target_usd_pct", 0.08)
+
+        while True:
+            try:
+                raw = input(
+                    f"Enter trade amount in USD (max ${buying_power:.2f}) or percent (e.g. 10%): "
+                ).strip()
+
+                if raw == "":
+                    print(f"Using default trade amount: ${default_amount:.2f}\n")
+                    return min(default_amount, buying_power)
+
+                if raw.endswith("%"):
+                    pct = float(raw[:-1].strip()) / 100.0
+                    amount = buying_power * pct
+                else:
+                    amount = float(raw)
+
+                if amount <= 0:
+                    print("Amount must be greater than 0.")
+                    continue
+                if amount > buying_power:
+                    print("Amount cannot exceed available buying power.")
+                    continue
+
+                return amount
+            except ValueError:
+                print("Invalid value. Enter a dollar amount or percentage like 10%.")
+
+    def _load_state(self):
+        """Load bot state from file"""
+        if os.path.isfile(self.state_file):
+            try:
+                with open(self.state_file, "r") as f:
+                    data = json.load(f)
+                self.target_usd_exposure = float(data.get("target_usd_exposure", 0.0))
+                self.lower_price_floor = float(data.get("lower_price_floor", 0.0))
+                self.dca_stages_triggered = data.get("dca_stages_triggered", [])
+                self.highest_price = float(data.get("highest_price", 0.0))
+                logger.info(f"Loaded hybrid bot state from {self.state_file}")
+            except Exception as e:
+                logger.warning(f"Hybrid state load failed: {e}")
+
     def start(self):
         """Start the bot"""
         if self.running:
@@ -374,8 +447,8 @@ class HybridDCAInfinityGrid:
                 self.running = False
                 return
             
-            # Set exposure
-            self.target_usd_exposure = buying_power * self.settings["target_usd_pct"]
+            # Ask how much to trade with
+            self.target_usd_exposure = self._prompt_trade_amount(buying_power)
             self.peak_exposure = self.target_usd_exposure
             self.lower_price_floor = current_price * self.settings["lower_floor_pct"]
 
@@ -428,7 +501,7 @@ class HybridDCAInfinityGrid:
                 
                 if current_price <= 0:
                     logger.warning("⚠️  No price data - skipping cycle")
-                    time.sleep(5)
+                    time.sleep(self.monitor_interval)
                     continue
                 
                 # self.last_price already updated by WS
@@ -442,7 +515,7 @@ class HybridDCAInfinityGrid:
                 
                 if signal < self.settings["min_signal_level"]:
                     logger.debug(f"Signal too low ({signal} < {self.settings['min_signal_level']}) - skipping trades")
-                    time.sleep(5)
+                    time.sleep(self.monitor_interval)
                     continue
 
                 # Main logic
@@ -463,7 +536,7 @@ class HybridDCAInfinityGrid:
                     self.last_rebalance_ts = now
                 
                 error_count = 0  # Reset error count on successful cycle
-                time.sleep(5)
+                time.sleep(self.monitor_interval)
                 
             except Exception as e:
                 error_count += 1
@@ -474,7 +547,7 @@ class HybridDCAInfinityGrid:
                     self.stop()
                     break
                 
-                time.sleep(5)
+                time.sleep(self.monitor_interval)
 
     def _handle_dca(self, current_price: float):
         """Handle DCA buy logic"""

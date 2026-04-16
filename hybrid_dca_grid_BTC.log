@@ -95,3 +95,8 @@
 2026-04-12 13:25:27,368 | HybridDCAInfinityGrid | INFO     | [GRID_BUY] ORDER: BUY 0.001954 @ $40909.0500
 2026-04-12 13:25:27,368 | HybridDCAInfinityGrid | INFO     | [GRID_SELL] ORDER: SELL 0.001632 @ $49000.9500
 2026-04-12 13:25:27,369 | HybridDCAInfinityGrid | WARNING  | ✅ BOT STARTED successfully
+2026-04-16 16:01:53,162 | HybridDCAInfinityGrid | INFO     | ============================================================
+2026-04-16 16:01:53,162 | HybridDCAInfinityGrid | INFO     | Initializing Hybrid DCA + Infinity Grid Bot
+2026-04-16 16:01:53,162 | HybridDCAInfinityGrid | INFO     | Symbol: BTC-USD | Paper Trading: True
+2026-04-16 16:01:53,162 | HybridDCAInfinityGrid | INFO     | ============================================================
+2026-04-16 16:01:53,162 | HybridDCAInfinityGrid | INFO     | Loaded position tracking state (3 open positions)
