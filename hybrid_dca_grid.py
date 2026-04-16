@@ -242,7 +242,7 @@ class HybridDCAInfinityGrid:
         # Runtime state
         self.running = False
         self.monitor_thread = None
-        self.user_ws = None
+        self.price_ws = None
         self.symbol_info = self._fetch_symbol_info()
         self.last_profit_release_ts: float = 0.0
         
@@ -296,19 +296,38 @@ class HybridDCAInfinityGrid:
             "max_dca_buys_per_24h": base.get("max_dca_buys_per_24h", MAX_DCA_BUYS_PER_24H),
         }
 
-    def _load_state(self):
-        """Load bot state from file"""
-        if os.path.isfile(self.state_file):
+    def _start_price_websocket(self):
+        """Start websocket for real-time price updates"""
+        def on_message(ws, message):
             try:
-                with open(self.state_file, "r") as f:
-                    data = json.load(f)
-                self.target_usd_exposure = data.get("target_usd_exposure", 0.0)
-                self.lower_price_floor = data.get("lower_price_floor", 0.0)
-                self.dca_stages_triggered = data.get("dca_stages_triggered", [])
-                self.highest_price = data.get("highest_price", 0.0)
-                logger.info(f"Loaded bot state from {self.state_file}")
+                data = json.loads(message)
+                if 'c' in data:  # last price
+                    price = float(data['c'])
+                    self.last_price = price
+                    if price > self.highest_price:
+                        self.highest_price = price
+                        logger.debug(f"📈 New peak: ${price:.4f}")
             except Exception as e:
-                logger.warning(f"State load failed: {e}")
+                logger.error(f"WS message error: {e}")
+
+        def on_error(ws, error):
+            logger.error(f"WS error: {error}")
+
+        def on_close(ws, close_status_code, close_msg):
+            logger.info("Price WS closed")
+
+        def on_open(ws):
+            logger.info("Price WS opened")
+
+        self.price_ws = websocket.WebSocketApp(
+            f"wss://stream.binance.com:9443/ws/{self.binance_symbol.lower()}@ticker",
+            on_message=on_message,
+            on_error=on_error,
+            on_close=on_close,
+            on_open=on_open
+        )
+        ws_thread = threading.Thread(target=self.price_ws.run_forever, daemon=True)
+        ws_thread.start()
 
     def _save_state(self):
         """Persist bot state to file"""
@@ -376,6 +395,9 @@ class HybridDCAInfinityGrid:
             self._place_grid_orders(current_price)
             self._save_state()
 
+            # Start price websocket for real-time updates
+            self._start_price_websocket()
+
             # Start monitoring
             self.monitor_thread = threading.Thread(target=self._monitor_loop, daemon=False)
             self.monitor_thread.start()
@@ -401,19 +423,18 @@ class HybridDCAInfinityGrid:
                     self.daily_reset_ts = now
                     logger.info("📊 Daily trade counter reset")
 
-                # Get current price
-                buy_p, sell_p, mid_p = self.api.get_price([self.symbol])
-                current_price = buy_p.get(self.symbol) or sell_p.get(self.symbol) or 0
+                # Get current price (now from websocket)
+                current_price = self.last_price
                 
                 if current_price <= 0:
                     logger.warning("⚠️  No price data - skipping cycle")
-                    time.sleep(60)
+                    time.sleep(5)
                     continue
                 
-                self.last_price = current_price
-                if current_price > self.highest_price:
-                    self.highest_price = current_price
-                    logger.info(f"📈 New peak: ${current_price:.4f}")
+                # self.last_price already updated by WS
+                # if current_price > self.highest_price:
+                #     self.highest_price = current_price
+                #     logger.info(f"📈 New peak: ${current_price:.4f}")  # Moved to WS
 
                 # Check signal
                 signal = _read_long_dca_signal(self.base)
@@ -421,7 +442,7 @@ class HybridDCAInfinityGrid:
                 
                 if signal < self.settings["min_signal_level"]:
                     logger.debug(f"Signal too low ({signal} < {self.settings['min_signal_level']}) - skipping trades")
-                    time.sleep(60)
+                    time.sleep(5)
                     continue
 
                 # Main logic
@@ -442,7 +463,7 @@ class HybridDCAInfinityGrid:
                     self.last_rebalance_ts = now
                 
                 error_count = 0  # Reset error count on successful cycle
-                time.sleep(30)
+                time.sleep(5)
                 
             except Exception as e:
                 error_count += 1
@@ -453,7 +474,7 @@ class HybridDCAInfinityGrid:
                     self.stop()
                     break
                 
-                time.sleep(30)
+                time.sleep(5)
 
     def _handle_dca(self, current_price: float):
         """Handle DCA buy logic"""
@@ -606,6 +627,8 @@ class HybridDCAInfinityGrid:
         logger.warning(f"⛔ STOPPING BOT: {self.symbol}")
         
         try:
+            if self.price_ws:
+                self.price_ws.close()
             self._cancel_all_orders()
             self._save_state()
             logger.info(f"Saved final state")
