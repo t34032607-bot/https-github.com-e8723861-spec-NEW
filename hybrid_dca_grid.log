@@ -1737,3 +1737,17 @@
 2026-04-18 17:05:02,932 | INFO |    Current Price: $75905.22
 2026-04-18 17:05:02,933 | INFO | 📈 Placing 20 grid orders in parallel...
 2026-04-18 17:05:02,935 | INFO | Grid placed in 0.003s (7214.8 orders/sec)
+2026-04-18 18:50:35,271 | WARNING | Live trading requested but CRYPTO_API_KEY/CRYPTO_API_SECRET are missing. Falling back to PAPER TRADING mode.
+2026-04-18 18:50:35,272 | INFO | ✅ PAPER TRADING MODE ENABLED - Starting balance: $10.0
+2026-04-18 18:50:35,272 | INFO | Loaded saved state for BTC-USD
+2026-04-18 18:50:35,272 | INFO | ✅ Server time synchronized (skew: 0ms)
+2026-04-18 18:50:35,272 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-18 18:50:35,272 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-18 18:50:35,273 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-18 18:50:35,273 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-18 18:50:35,273 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-18 18:50:35,274 | INFO | 📊 Spot Balance Loaded | Buying Power: $10.00 | Cash: $10.00 | Total: $10.00
+2026-04-18 18:50:35,937 | INFO | Websocket connected
+2026-04-18 18:50:35,938 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-18 18:50:35,940 | INFO | Websocket connected
+2026-04-18 18:50:35,940 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE

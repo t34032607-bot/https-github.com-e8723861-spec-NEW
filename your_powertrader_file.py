@@ -64,8 +64,14 @@ class CryptoAPITrading:
             logger.info(f"✅ PAPER TRADING MODE ENABLED - Starting balance: ${self.simulated_balance}")
         else:
             if not self.api_key or not self.api_secret:
-                raise ValueError("Live trading requires CRYPTO_API_KEY and CRYPTO_API_SECRET environment variables.")
-            logger.warning("⚠️  LIVE TRADING MODE - Using real API keys")
+                logger.warning(
+                    "Live trading requested but CRYPTO_API_KEY/CRYPTO_API_SECRET are missing. "
+                    "Falling back to PAPER TRADING mode."
+                )
+                self.paper_trading = True
+                logger.info(f"✅ PAPER TRADING MODE ENABLED - Starting balance: ${self.simulated_balance}")
+            else:
+                logger.warning("⚠️  LIVE TRADING MODE - Using real API keys")
 
     def make_api_request(self, method: str, endpoint: str, data: str = None) -> Dict[str, Any]:
         """
