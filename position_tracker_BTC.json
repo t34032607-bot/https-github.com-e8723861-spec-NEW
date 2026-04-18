@@ -3,29 +3,79 @@
     "BTC_1775999778118": {
       "id": "BTC_1775999778118",
       "symbol": "BTC-USD",
-      "qty": 0.005338,
+      "qty": 0.0004949999999999998,
       "entry_price": 44955.0,
       "entry_time": 1775999778.118393,
       "side": "buy",
       "tag": "INITIAL",
-      "realized_pnl": 0.0
+      "realized_pnl": 168.57270549999998,
+      "exit_price": 76534.75,
+      "exit_time": 1776504353.0043385,
+      "realized_pnl_pct": 70.24746969191413,
+      "close_tag": "PROFIT_TAKE"
     },
     "BTC_1775999954163": {
       "id": "BTC_1775999954163",
       "symbol": "BTC-USD",
-      "qty": 0.005338,
+      "qty": 0.002096,
       "entry_price": 44955.0,
       "entry_time": 1775999954.1637104,
       "side": "buy",
       "tag": "INITIAL",
-      "realized_pnl": 0.0
+      "realized_pnl": 168.73119072,
+      "exit_price": 76564.44,
+      "exit_time": 1776504653.073728,
+      "realized_pnl_pct": 70.31351351351351,
+      "close_tag": "PROFIT_TAKE"
     },
     "BTC_1776000327364": {
       "id": "BTC_1776000327364",
       "symbol": "BTC-USD",
-      "qty": 0.005338,
+      "qty": 0.0036969999999999998,
       "entry_price": 44955.0,
       "entry_time": 1776000327.364418,
+      "side": "buy",
+      "tag": "INITIAL",
+      "realized_pnl": 169.16554377999998,
+      "exit_price": 76645.81,
+      "exit_time": 1776504953.1365442,
+      "realized_pnl_pct": 70.49451673896118,
+      "close_tag": "PROFIT_TAKE"
+    },
+    "BTC_1776363358895": {
+      "id": "BTC_1776363358895",
+      "symbol": "BTC-USD",
+      "qty": 2.6999999999999992e-05,
+      "entry_price": 44955.0,
+      "entry_time": 1776363358.895851,
+      "side": "buy",
+      "tag": "INITIAL",
+      "realized_pnl": 2.0908489799999996,
+      "exit_price": 76634.53,
+      "exit_time": 1776505253.1990693,
+      "realized_pnl_pct": 70.46942498053609,
+      "close_tag": "PROFIT_TAKE"
+    },
+    "BTC_1776504350998": {
+      "id": "BTC_1776504350998",
+      "symbol": "BTC-USD",
+      "qty": 6.599999999999999e-05,
+      "entry_price": 44955.0,
+      "entry_time": 1776504350.9980984,
+      "side": "buy",
+      "tag": "INITIAL",
+      "realized_pnl": 2.0903421,
+      "exit_price": 76626.85,
+      "exit_time": 1776505553.262887,
+      "realized_pnl_pct": 70.45234123011902,
+      "close_tag": "PROFIT_TAKE"
+    },
+    "BTC_1776518580041": {
+      "id": "BTC_1776518580041",
+      "symbol": "BTC-USD",
+      "qty": 3.9e-05,
+      "entry_price": 76212.7,
+      "entry_time": 1776518580.0415833,
       "side": "buy",
       "tag": "INITIAL",
       "realized_pnl": 0.0
@@ -61,7 +111,41 @@
       "side": "buy",
       "tag": "INITIAL",
       "realized_pnl": 0.0
+    },
+    {
+      "id": "BTC_1776363358895",
+      "symbol": "BTC-USD",
+      "qty": 6.599999999999999e-05,
+      "entry_price": 44955.0,
+      "entry_time": 1776363358.895851,
+      "side": "buy",
+      "tag": "INITIAL",
+      "realized_pnl": 0.0
+    },
+    {
+      "id": "BTC_1776504350998",
+      "symbol": "BTC-USD",
+      "qty": 6.599999999999999e-05,
+      "entry_price": 44955.0,
+      "entry_time": 1776504350.9980984,
+      "side": "buy",
+      "tag": "INITIAL",
+      "realized_pnl": 2.0903421,
+      "exit_price": 76626.85,
+      "exit_time": 1776505553.262887,
+      "realized_pnl_pct": 70.45234123011902,
+      "close_tag": "PROFIT_TAKE"
+    },
+    {
+      "id": "BTC_1776518580041",
+      "symbol": "BTC-USD",
+      "qty": 3.9e-05,
+      "entry_price": 76212.7,
+      "entry_time": 1776518580.0415833,
+      "side": "buy",
+      "tag": "INITIAL",
+      "realized_pnl": 0.0
     }
   ],
-  "last_updated": 1776000327.3644211
+  "last_updated": 1776518580.0415874
 }

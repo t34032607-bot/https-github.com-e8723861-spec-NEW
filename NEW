@@ -1,4 +1,4 @@
-
+ zw
 import time
 import json
 import os
@@ -104,6 +104,25 @@ class HybridDCAInfinityGrid:
     def _round_price(self, price: float) -> float:
         tick = self.symbol_info["tickSize"]
         return round(price / tick) * tick
+
+    def _format_decimal(self, value: float, is_price: bool = False) -> str:
+        """Format decimal value for Binance API with appropriate precision"""
+        from decimal import Decimal
+        
+        if is_price:
+            size = self.symbol_info["tickSize"]
+        else:
+            size = self.symbol_info["stepSize"]
+        
+        # Calculate decimal places from size using Decimal for accuracy
+        try:
+            d = Decimal(str(size))
+            decimals = -int(d.as_tuple().exponent) if d.as_tuple().exponent else 0
+        except:
+            decimals = 8  # Fallback
+        
+        # Format value with the appropriate precision
+        return f"{value:.{decimals}f}"
 
     def _load_settings(self) -> dict:
         base = _load_gui_settings()
@@ -443,14 +462,21 @@ class HybridDCAInfinityGrid:
         price = self._round_price(price)
         qty = self._round_qty(qty)
         if qty <= 0: return None
+        
+        # Check notional value (Binance requires minimum notional per order)
+        notional = qty * price
+        MIN_NOTIONAL = 10.0  # Minimum $10 notional for most pairs
+        if notional < MIN_NOTIONAL:
+            logger.debug(f"Order {tag} skipped - notional ${notional:.2f} below minimum ${MIN_NOTIONAL}")
+            return None
 
         params = {
             "symbol": self.binance_symbol,
             "side": side.upper(),
             "type": "LIMIT",
             "timeInForce": "GTC",
-            "quantity": str(qty),
-            "price": str(price),
+            "quantity": self._format_decimal(qty, is_price=False),
+            "price": self._format_decimal(price, is_price=True),
         }
 
         try:

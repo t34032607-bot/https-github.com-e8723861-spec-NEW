@@ -281,6 +281,25 @@ class HybridDCAInfinityGrid:
         tick = self.symbol_info["tickSize"]
         return round(price / tick) * tick
 
+    def _format_decimal(self, value: float, is_price: bool = False) -> str:
+        """Format decimal value for Binance API with appropriate precision"""
+        from decimal import Decimal
+        
+        if is_price:
+            size = self.symbol_info["tickSize"]
+        else:
+            size = self.symbol_info["stepSize"]
+        
+        # Calculate decimal places from size using Decimal for accuracy
+        try:
+            d = Decimal(str(size))
+            decimals = -int(d.as_tuple().exponent) if d.as_tuple().exponent else 0
+        except:
+            decimals = 8  # Fallback
+        
+        # Format value with the appropriate precision
+        return f"{value:.{decimals}f}"
+
     def _load_settings(self) -> dict:
         """Load all bot settings"""
         base = _load_gui_settings()
@@ -596,11 +615,58 @@ class HybridDCAInfinityGrid:
             if time.time() - self.last_profit_release_ts < 300:  # Min 5 min between releases
                 return
             
-            logger.warning(f"💰 PROFIT RELEASE: {unrealized_pct:.2f}% gain - selling {self.settings['profit_release_pct']*100:.0f}%")
+            # Calculate total position size from open buy positions
+            total_position_qty = 0.0
+            for pos_id, pos in self.position_tracker.positions.items():
+                if "exit_price" not in pos and pos["side"] == "buy":
+                    total_position_qty += pos["qty"]
             
-            # TODO: Implement position closing logic
-            # For now, just record intent
-            self.last_profit_release_ts = time.time()
+            if total_position_qty <= 0:
+                logger.warning("No open positions to take profit from")
+                return
+            
+            # Calculate quantity to sell (percentage of position)
+            sell_qty = total_position_qty * self.settings["profit_release_pct"]
+            sell_qty = self._round_qty(sell_qty)
+            
+            if sell_qty <= 0:
+                logger.warning(f"Calculated sell quantity too small: {sell_qty}")
+                return
+            
+            logger.warning(f"💰 PROFIT RELEASE: {unrealized_pct:.2f}% gain - selling {sell_qty:.6f} {self.base} (${sell_qty * current_price:.2f})")
+            
+            # Place market sell order for profit-taking
+            order_id = self._place_market_order("SELL", sell_qty, tag="PROFIT_TAKE")
+            
+            if order_id:
+                # Record the profit-taking in position tracker
+                # Note: In a real implementation, this would be updated when the order fills
+                # For now, we'll mark a portion of positions as closed at current price
+                closed_qty = 0.0
+                for pos_id, pos in list(self.position_tracker.positions.items()):
+                    if closed_qty >= sell_qty:
+                        break
+                    if "exit_price" not in pos and pos["side"] == "buy":
+                        remaining_qty = pos["qty"]
+                        close_qty = min(remaining_qty, sell_qty - closed_qty)
+                        
+                        if close_qty > 0:
+                            # Create a partial close record
+                            partial_pos = pos.copy()
+                            partial_pos["qty"] = close_qty
+                            self.position_tracker.close_position(pos_id, current_price, "PROFIT_TAKE")
+                            
+                            # Reduce original position
+                            pos["qty"] -= close_qty
+                            if pos["qty"] <= 0:
+                                del self.position_tracker.positions[pos_id]
+                            
+                            closed_qty += close_qty
+                
+                self.last_profit_release_ts = time.time()
+                logger.info(f"✅ Profit release executed: Sold {sell_qty:.6f} {self.base} @ ${current_price:.4f}")
+            else:
+                logger.error("Failed to place profit-taking sell order")
             
         except Exception as e:
             logger.error(f"Profit release error: {e}", exc_info=True)
@@ -622,14 +688,21 @@ class HybridDCAInfinityGrid:
             if qty <= 0:
                 logger.warning(f"Invalid qty for order: {qty}")
                 return None
+            
+            # Check notional value (Binance requires minimum notional per order, typically ~$10-$15)
+            notional = qty * price
+            MIN_NOTIONAL = 10.0  # Minimum $10 notional for most pairs
+            if notional < MIN_NOTIONAL:
+                logger.debug(f"Order {tag} skipped - notional ${notional:.2f} below minimum ${MIN_NOTIONAL}")
+                return None
 
             params = {
                 "symbol": self.binance_symbol,
                 "side": side.upper(),
                 "type": "LIMIT",
                 "timeInForce": "GTC",
-                "quantity": str(qty),
-                "price": str(price),
+                "quantity": self._format_decimal(qty, is_price=False),
+                "price": self._format_decimal(price, is_price=True),
             }
 
             resp = self.api.make_api_request("POST", "/api/v3/order", json.dumps(params))
@@ -650,6 +723,54 @@ class HybridDCAInfinityGrid:
                 
         except Exception as e:
             logger.error(f"Order placement error: {e}", exc_info=True)
+        
+        return None
+
+    def _place_market_order(self, side: str, qty: float, tag: str = "MARKET") -> Optional[str]:
+        """Place a market order"""
+        try:
+            qty = self._round_qty(qty)
+            
+            if qty <= 0:
+                logger.warning(f"Invalid qty for market order: {qty}")
+                return None
+            
+            # Check notional value using current price
+            current_price = self.last_price if self.last_price > 0 else 76000  # fallback
+            notional = qty * current_price
+            MIN_NOTIONAL = 10.0
+            if notional < MIN_NOTIONAL:
+                logger.debug(f"Market order {tag} skipped - notional ${notional:.2f} below minimum ${MIN_NOTIONAL}")
+                return None
+
+            params = {
+                "symbol": self.binance_symbol,
+                "side": side.upper(),
+                "type": "MARKET",
+                "quantity": self._format_decimal(qty, is_price=False),
+            }
+
+            resp = self.api.make_api_request("POST", "/api/v3/order", json.dumps(params))
+            if resp and "orderId" in resp:
+                order_id = str(resp["orderId"])
+                executed_qty = float(resp.get("executedQty", qty))
+                avg_price = float(resp.get("avgPrice", 0)) if "avgPrice" in resp else 0
+                
+                self.active_orders[order_id] = {
+                    "side": side.lower(),
+                    "price": avg_price,
+                    "qty": executed_qty,
+                    "ts": time.time(),
+                    "tag": tag
+                }
+                logger.info(f"[{tag}] MARKET ORDER: {side.upper()} {executed_qty:.6f} @ ${avg_price:.4f}")
+                self.daily_trades += 1
+                return order_id
+            else:
+                logger.warning(f"Market order response missing orderId: {resp}")
+                
+        except Exception as e:
+            logger.error(f"Market order placement error: {e}", exc_info=True)
         
         return None
 

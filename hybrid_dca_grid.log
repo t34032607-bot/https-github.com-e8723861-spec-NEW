@@ -1,4 +1,5 @@
-2026-04-12 14:22:16,110 | INFO | ✅ PAPER TRADING MODE ENABLED - Starting balance: $10000.0
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      2026-04-12 14:22:16,110 | INFO | ✅ PAPER TRADING MODE ENABLED - Starting balance: $10000.0
 2026-04-12 14:22:16,111 | INFO | Loaded saved state for BTC-USD
 2026-04-12 14:22:16,111 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
 2026-04-12 14:22:16,113 | INFO | User Data Stream WebSocket started (real-time fills)
@@ -1043,3 +1044,696 @@
 2026-04-16 16:54:42,825 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
 2026-04-16 16:54:42,981 | INFO | 🛑 Hybrid Bot stopped
 2026-04-16 16:54:42,982 | INFO | ✅ Bot stopped cleanly
+2026-04-16 17:27:17,501 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-16 17:27:17,501 | INFO | Loaded saved state for BTC-USD
+2026-04-16 17:27:17,501 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-16 17:27:17,501 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-16 17:27:17,502 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-16 17:27:17,502 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-16 17:27:17,503 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-16 17:27:17,503 | INFO | 📊 Spot Balance Loaded | Buying Power: $10.00 | Cash: $10.00 | Total: $10.00
+2026-04-16 17:27:18,282 | INFO | Websocket connected
+2026-04-16 17:27:18,283 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-16 17:27:18,303 | INFO | Websocket connected
+2026-04-16 17:27:18,305 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-16 17:27:21,621 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-16 17:27:21,774 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-16 17:27:21,979 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-16 17:27:21,981 | INFO | 🛑 Hybrid Bot stopped
+2026-04-16 17:27:21,981 | INFO | ✅ Bot stopped cleanly
+2026-04-16 17:36:56,889 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-16 17:36:56,889 | INFO | Loaded saved state for BTC-USD
+2026-04-16 17:36:56,890 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-16 17:36:56,890 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-16 17:36:56,890 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-16 17:36:56,891 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-16 17:36:56,891 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-16 17:36:56,891 | INFO | 📊 Spot Balance Loaded | Buying Power: $10.00 | Cash: $10.00 | Total: $10.00
+2026-04-16 17:36:57,606 | INFO | Websocket connected
+2026-04-16 17:36:57,606 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-16 17:36:57,607 | INFO | Websocket connected
+2026-04-16 17:36:57,607 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-16 17:37:01,113 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-16 17:37:01,278 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-16 17:37:01,482 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-16 17:37:01,484 | INFO | 🛑 Hybrid Bot stopped
+2026-04-16 17:37:01,484 | INFO | ✅ Bot stopped cleanly
+2026-04-16 17:51:10,345 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-16 17:51:10,346 | INFO | Loaded saved state for BTC-USD
+2026-04-16 17:51:10,346 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-16 17:51:10,346 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-16 17:51:10,348 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-16 17:51:10,348 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-16 17:51:10,349 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-16 17:51:10,349 | INFO | 📊 Spot Balance Loaded | Buying Power: $10.00 | Cash: $10.00 | Total: $10.00
+2026-04-16 17:51:10,929 | INFO | Websocket connected
+2026-04-16 17:51:10,930 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-16 17:51:10,977 | INFO | Websocket connected
+2026-04-16 17:51:10,978 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-16 17:51:14,414 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-16 17:51:14,582 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-16 17:51:14,769 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-16 17:51:14,771 | INFO | 🛑 Hybrid Bot stopped
+2026-04-16 17:51:14,771 | INFO | ✅ Bot stopped cleanly
+2026-04-17 11:02:20,805 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-17 11:02:21,012 | ERROR | Binance API HTTPError 400: {"code":-1104,"msg":"Not all sent parameters were read; read '1' parameter(s) but was sent '4'."}
+2026-04-17 11:02:21,012 | WARNING | Symbol info failed: HTTP Error 400: Bad Request
+2026-04-17 11:02:21,013 | INFO | Loaded saved state for BTC-USD
+2026-04-17 11:02:21,216 | ERROR | Binance API HTTPError 400: {"code":-1101,"msg":"Too many parameters; expected '0' and received '3'."}
+2026-04-17 11:02:21,216 | WARNING | Could not sync server time: HTTP Error 400: Bad Request
+2026-04-17 11:02:21,216 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-17 11:02:21,217 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-17 11:02:21,218 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-17 11:02:21,218 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-17 11:02:21,219 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-17 11:02:21,645 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-17 11:02:21,665 | INFO | Websocket connected
+2026-04-17 11:02:21,665 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-17 11:02:21,713 | INFO | Websocket connected
+2026-04-17 11:02:21,713 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-17 11:02:25,346 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-17 11:02:25,511 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-17 11:02:25,684 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-17 11:02:25,685 | INFO | 🛑 Hybrid Bot stopped
+2026-04-17 11:02:25,685 | INFO | ✅ Bot stopped cleanly
+2026-04-17 11:55:07,482 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-17 11:55:07,722 | ERROR | Binance API HTTPError 400: {"code":-1104,"msg":"Not all sent parameters were read; read '1' parameter(s) but was sent '4'."}
+2026-04-17 11:55:07,722 | WARNING | Symbol info failed: HTTP Error 400: Bad Request
+2026-04-17 11:55:07,723 | INFO | Loaded saved state for BTC-USD
+2026-04-17 11:55:07,948 | ERROR | Binance API HTTPError 400: {"code":-1101,"msg":"Too many parameters; expected '0' and received '3'."}
+2026-04-17 11:55:07,951 | WARNING | Could not sync server time: HTTP Error 400: Bad Request
+2026-04-17 11:55:07,951 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-17 11:55:07,951 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-17 11:55:07,952 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-17 11:55:07,955 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-17 11:55:07,957 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-17 11:55:08,454 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-17 11:55:08,517 | INFO | Websocket connected
+2026-04-17 11:55:08,518 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-17 11:55:08,540 | INFO | Websocket connected
+2026-04-17 11:55:08,542 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-17 11:55:11,291 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-17 11:55:11,475 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-17 11:55:11,644 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-17 11:55:11,645 | INFO | 🛑 Hybrid Bot stopped
+2026-04-17 11:55:11,645 | INFO | ✅ Bot stopped cleanly
+2026-04-17 13:12:09,950 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-17 13:12:10,303 | ERROR | Binance API HTTPError 400: {"code":-1104,"msg":"Not all sent parameters were read; read '1' parameter(s) but was sent '4'."}
+2026-04-17 13:12:10,303 | WARNING | Symbol info failed: HTTP Error 400: Bad Request
+2026-04-17 13:12:10,304 | INFO | Loaded saved state for BTC-USD
+2026-04-17 13:12:10,507 | ERROR | Binance API HTTPError 400: {"code":-1101,"msg":"Too many parameters; expected '0' and received '3'."}
+2026-04-17 13:12:10,508 | WARNING | Could not sync server time: HTTP Error 400: Bad Request
+2026-04-17 13:12:10,508 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-17 13:12:10,508 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-17 13:12:10,509 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-17 13:12:10,509 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-17 13:12:10,509 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-17 13:12:10,955 | INFO | Websocket connected
+2026-04-17 13:12:10,955 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-17 13:12:10,958 | INFO | Websocket connected
+2026-04-17 13:12:10,959 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-17 13:12:11,020 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-17 13:12:14,527 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-17 13:12:14,716 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-17 13:12:14,842 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-17 13:12:14,844 | INFO | 🛑 Hybrid Bot stopped
+2026-04-17 13:12:14,844 | INFO | ✅ Bot stopped cleanly
+2026-04-17 13:43:26,622 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-17 13:43:26,888 | ERROR | Binance API HTTPError 400: {"code":-1104,"msg":"Not all sent parameters were read; read '1' parameter(s) but was sent '4'."}
+2026-04-17 13:43:26,888 | WARNING | Symbol info failed: HTTP Error 400: Bad Request
+2026-04-17 13:43:26,889 | INFO | Loaded saved state for BTC-USD
+2026-04-17 13:43:27,098 | ERROR | Binance API HTTPError 400: {"code":-1101,"msg":"Too many parameters; expected '0' and received '3'."}
+2026-04-17 13:43:27,098 | WARNING | Could not sync server time: HTTP Error 400: Bad Request
+2026-04-17 13:43:27,098 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-17 13:43:27,099 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-17 13:43:27,100 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-17 13:43:27,100 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-17 13:43:27,100 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-17 13:43:27,482 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-17 13:43:27,652 | INFO | Websocket connected
+2026-04-17 13:43:27,653 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-17 13:43:27,676 | INFO | Websocket connected
+2026-04-17 13:43:27,677 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-17 13:43:31,087 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-17 13:43:31,275 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-17 13:43:31,428 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-17 13:43:31,430 | INFO | 🛑 Hybrid Bot stopped
+2026-04-17 13:43:31,430 | INFO | ✅ Bot stopped cleanly
+2026-04-17 14:16:04,518 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-17 14:16:04,969 | ERROR | Binance API HTTPError 400: {"code":-1104,"msg":"Not all sent parameters were read; read '1' parameter(s) but was sent '4'."}
+2026-04-17 14:16:04,970 | WARNING | Symbol info failed: HTTP Error 400: Bad Request
+2026-04-17 14:16:04,971 | INFO | Loaded saved state for BTC-USD
+2026-04-17 14:16:05,205 | ERROR | Binance API HTTPError 400: {"code":-1101,"msg":"Too many parameters; expected '0' and received '3'."}
+2026-04-17 14:16:05,206 | WARNING | Could not sync server time: HTTP Error 400: Bad Request
+2026-04-17 14:16:05,206 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-17 14:16:05,207 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-17 14:16:05,207 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-17 14:16:05,208 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-17 14:16:05,208 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-17 14:16:05,784 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-17 14:16:05,852 | INFO | Websocket connected
+2026-04-17 14:16:05,852 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-17 14:16:05,895 | INFO | Websocket connected
+2026-04-17 14:16:05,898 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-17 14:16:07,577 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-17 14:16:07,749 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-17 14:16:07,971 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-17 14:16:07,972 | INFO | 🛑 Hybrid Bot stopped
+2026-04-17 14:16:07,973 | INFO | ✅ Bot stopped cleanly
+2026-04-17 15:14:05,155 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-17 15:14:05,378 | ERROR | Binance API HTTPError 400: {"code":-1104,"msg":"Not all sent parameters were read; read '1' parameter(s) but was sent '4'."}
+2026-04-17 15:14:05,379 | WARNING | Symbol info failed: HTTP Error 400: Bad Request
+2026-04-17 15:14:05,443 | INFO | Loaded saved state for BTC-USD
+2026-04-17 15:14:05,642 | ERROR | Binance API HTTPError 400: {"code":-1101,"msg":"Too many parameters; expected '0' and received '3'."}
+2026-04-17 15:14:05,642 | WARNING | Could not sync server time: HTTP Error 400: Bad Request
+2026-04-17 15:14:05,642 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-17 15:14:05,642 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-17 15:14:05,644 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-17 15:14:05,644 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-17 15:14:05,645 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-17 15:14:06,034 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-17 15:14:06,184 | INFO | Websocket connected
+2026-04-17 15:14:06,185 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-17 15:14:06,202 | INFO | Websocket connected
+2026-04-17 15:14:06,203 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-17 15:14:09,645 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-17 15:14:09,853 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-17 15:14:10,071 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-17 15:14:10,072 | INFO | 🛑 Hybrid Bot stopped
+2026-04-17 15:14:10,072 | INFO | ✅ Bot stopped cleanly
+2026-04-18 08:58:46,465 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-18 08:58:46,904 | ERROR | Binance API HTTPError 400: {"code":-1104,"msg":"Not all sent parameters were read; read '1' parameter(s) but was sent '4'."}
+2026-04-18 08:58:46,904 | WARNING | Symbol info failed: HTTP Error 400: Bad Request
+2026-04-18 08:58:46,908 | INFO | Loaded saved state for BTC-USD
+2026-04-18 08:58:47,154 | ERROR | Binance API HTTPError 400: {"code":-1101,"msg":"Too many parameters; expected '0' and received '3'."}
+2026-04-18 08:58:47,154 | WARNING | Could not sync server time: HTTP Error 400: Bad Request
+2026-04-18 08:58:47,154 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-18 08:58:47,154 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-18 08:58:47,155 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-18 08:58:47,155 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-18 08:58:47,156 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-18 08:58:47,791 | INFO | 📊 Spot Balance Loaded | Buying Power: $0.00 | Cash: $0.00 | Total: $0.00
+2026-04-18 08:58:47,791 | INFO | 📊 Portfolio Setup:
+2026-04-18 08:58:47,791 | INFO |    Buying Power: $0.00
+2026-04-18 08:58:47,791 | INFO |    Target Exposure: $0.00
+2026-04-18 08:58:47,792 | INFO |    Current Price: $76748.46
+2026-04-18 08:58:47,792 | INFO | 📈 Placing 20 grid orders in parallel...
+2026-04-18 08:58:47,794 | INFO | Grid placed in 0.002s (11137.3 orders/sec)
+2026-04-18 08:58:47,817 | INFO | Websocket connected
+2026-04-18 08:58:47,817 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-18 08:58:47,834 | INFO | Websocket connected
+2026-04-18 08:58:47,834 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-18 08:58:50,865 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-18 08:58:51,039 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-18 08:58:51,086 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-18 08:58:51,172 | INFO | 🛑 Hybrid Bot stopped
+2026-04-18 08:58:51,172 | INFO | ✅ Bot stopped cleanly
+2026-04-18 09:01:28,023 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-18 09:01:28,210 | ERROR | Binance API HTTPError 400: {"code":-1104,"msg":"Not all sent parameters were read; read '1' parameter(s) but was sent '4'."}
+2026-04-18 09:01:28,210 | WARNING | Symbol info failed: HTTP Error 400: Bad Request
+2026-04-18 09:01:28,210 | INFO | Loaded saved state for BTC-USD
+2026-04-18 09:01:28,391 | ERROR | Binance API HTTPError 400: {"code":-1101,"msg":"Too many parameters; expected '0' and received '3'."}
+2026-04-18 09:01:28,391 | WARNING | Could not sync server time: HTTP Error 400: Bad Request
+2026-04-18 09:01:28,391 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-18 09:01:28,391 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-18 09:01:28,393 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-18 09:01:28,393 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-18 09:01:28,395 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-18 09:01:28,804 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-18 09:01:29,080 | INFO | Websocket connected
+2026-04-18 09:01:29,080 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-18 09:01:29,087 | INFO | Websocket connected
+2026-04-18 09:01:29,087 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-18 09:01:40,515 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-18 09:01:40,689 | ERROR | Binance API HTTPError 400: {"code":-1104,"msg":"Not all sent parameters were read; read '1' parameter(s) but was sent '4'."}
+2026-04-18 09:01:40,689 | WARNING | Symbol info failed: HTTP Error 400: Bad Request
+2026-04-18 09:01:40,690 | INFO | Loaded saved state for BTC-USD
+2026-04-18 09:01:40,873 | ERROR | Binance API HTTPError 400: {"code":-1101,"msg":"Too many parameters; expected '0' and received '3'."}
+2026-04-18 09:01:40,873 | WARNING | Could not sync server time: HTTP Error 400: Bad Request
+2026-04-18 09:01:40,873 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-18 09:01:40,873 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-18 09:01:40,874 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-18 09:01:40,874 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-18 09:01:40,875 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-18 09:01:41,236 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-18 09:01:41,385 | INFO | Websocket connected
+2026-04-18 09:01:41,385 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-18 09:01:41,399 | INFO | Websocket connected
+2026-04-18 09:01:41,399 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-18 09:01:45,101 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-18 09:01:45,315 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-18 09:01:45,492 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-18 09:01:45,493 | INFO | 🛑 Hybrid Bot stopped
+2026-04-18 09:01:45,494 | INFO | ✅ Bot stopped cleanly
+2026-04-18 09:47:34,912 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-18 09:47:35,099 | ERROR | Binance API HTTPError 400: {"code":-1104,"msg":"Not all sent parameters were read; read '1' parameter(s) but was sent '4'."}
+2026-04-18 09:47:35,099 | WARNING | Symbol info failed: HTTP Error 400: Bad Request
+2026-04-18 09:47:35,099 | INFO | Loaded saved state for BTC-USD
+2026-04-18 09:47:35,270 | ERROR | Binance API HTTPError 400: {"code":-1101,"msg":"Too many parameters; expected '0' and received '3'."}
+2026-04-18 09:47:35,270 | WARNING | Could not sync server time: HTTP Error 400: Bad Request
+2026-04-18 09:47:35,270 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-18 09:47:35,270 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-18 09:47:35,271 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-18 09:47:35,271 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-18 09:47:35,271 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-18 09:47:35,626 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-18 09:47:35,693 | INFO | Websocket connected
+2026-04-18 09:47:35,693 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-18 09:47:35,702 | INFO | Websocket connected
+2026-04-18 09:47:35,702 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-18 09:47:47,075 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-18 09:47:47,274 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-18 09:47:47,466 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-18 09:47:47,467 | INFO | 🛑 Hybrid Bot stopped
+2026-04-18 09:47:47,467 | INFO | ✅ Bot stopped cleanly
+2026-04-18 09:47:47,579 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-18 09:47:47,903 | ERROR | Binance API HTTPError 400: {"code":-1104,"msg":"Not all sent parameters were read; read '1' parameter(s) but was sent '4'."}
+2026-04-18 09:47:47,903 | WARNING | Symbol info failed: HTTP Error 400: Bad Request
+2026-04-18 09:47:47,903 | INFO | Loaded saved state for BTC-USD
+2026-04-18 09:47:48,074 | ERROR | Binance API HTTPError 400: {"code":-1101,"msg":"Too many parameters; expected '0' and received '3'."}
+2026-04-18 09:47:48,074 | WARNING | Could not sync server time: HTTP Error 400: Bad Request
+2026-04-18 09:47:48,075 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-18 09:47:48,075 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-18 09:47:48,075 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-18 09:47:48,075 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-18 09:47:48,076 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-18 09:47:48,429 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-18 09:47:48,482 | INFO | Websocket connected
+2026-04-18 09:47:48,482 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-18 09:47:48,488 | INFO | Websocket connected
+2026-04-18 09:47:48,488 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-18 09:52:40,062 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-18 09:52:40,283 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-18 09:52:40,500 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-18 09:52:40,501 | INFO | 🛑 Hybrid Bot stopped
+2026-04-18 09:52:40,501 | INFO | ✅ Bot stopped cleanly
+2026-04-18 09:52:40,633 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-18 09:52:40,882 | ERROR | Binance API HTTPError 400: {"code":-1104,"msg":"Not all sent parameters were read; read '1' parameter(s) but was sent '4'."}
+2026-04-18 09:52:40,882 | WARNING | Symbol info failed: HTTP Error 400: Bad Request
+2026-04-18 09:52:40,882 | INFO | Loaded saved state for BTC-USD
+2026-04-18 09:52:41,060 | ERROR | Binance API HTTPError 400: {"code":-1101,"msg":"Too many parameters; expected '0' and received '3'."}
+2026-04-18 09:52:41,060 | WARNING | Could not sync server time: HTTP Error 400: Bad Request
+2026-04-18 09:52:41,060 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-18 09:52:41,061 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-18 09:52:41,061 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-18 09:52:41,061 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-18 09:52:41,062 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-18 09:52:41,420 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-18 09:52:41,734 | INFO | Websocket connected
+2026-04-18 09:52:41,735 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-18 09:52:41,735 | INFO | Websocket connected
+2026-04-18 09:52:41,735 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-18 09:57:12,814 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-18 09:57:13,036 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-18 09:57:13,086 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-18 09:57:13,187 | INFO | 🛑 Hybrid Bot stopped
+2026-04-18 09:57:13,187 | INFO | ✅ Bot stopped cleanly
+2026-04-18 09:57:13,303 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-18 09:57:13,663 | ERROR | Binance API HTTPError 400: {"code":-1104,"msg":"Not all sent parameters were read; read '1' parameter(s) but was sent '4'."}
+2026-04-18 09:57:13,663 | WARNING | Symbol info failed: HTTP Error 400: Bad Request
+2026-04-18 09:57:13,663 | INFO | Loaded saved state for BTC-USD
+2026-04-18 09:57:13,833 | ERROR | Binance API HTTPError 400: {"code":-1101,"msg":"Too many parameters; expected '0' and received '3'."}
+2026-04-18 09:57:13,834 | WARNING | Could not sync server time: HTTP Error 400: Bad Request
+2026-04-18 09:57:13,834 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-18 09:57:13,834 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-18 09:57:13,834 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-18 09:57:13,835 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-18 09:57:13,835 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-18 09:57:14,199 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-18 09:57:14,389 | INFO | Websocket connected
+2026-04-18 09:57:14,389 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-18 09:57:14,390 | INFO | Websocket connected
+2026-04-18 09:57:14,390 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-18 13:19:41,097 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-18 13:19:41,270 | ERROR | Binance API HTTPError 400: {"code":-1104,"msg":"Not all sent parameters were read; read '1' parameter(s) but was sent '4'."}
+2026-04-18 13:19:41,270 | WARNING | Symbol info failed: HTTP Error 400: Bad Request
+2026-04-18 13:19:41,271 | INFO | Loaded saved state for BTC-USD
+2026-04-18 13:19:41,450 | ERROR | Binance API HTTPError 400: {"code":-1101,"msg":"Too many parameters; expected '0' and received '3'."}
+2026-04-18 13:19:41,450 | WARNING | Could not sync server time: HTTP Error 400: Bad Request
+2026-04-18 13:19:41,450 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-18 13:19:41,450 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-18 13:19:41,452 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-18 13:19:41,452 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-18 13:19:41,454 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-18 13:19:41,881 | INFO | Websocket connected
+2026-04-18 13:19:41,882 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-18 13:19:41,887 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-18 13:19:41,917 | INFO | Websocket connected
+2026-04-18 13:19:41,918 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-18 13:19:45,677 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-18 13:19:45,810 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-18 13:19:45,961 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-18 13:19:45,962 | INFO | 🛑 Hybrid Bot stopped
+2026-04-18 13:19:45,963 | INFO | ✅ Bot stopped cleanly
+2026-04-18 13:29:35,064 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-18 13:29:35,412 | ERROR | Binance API HTTPError 400: {"code":-1104,"msg":"Not all sent parameters were read; read '1' parameter(s) but was sent '4'."}
+2026-04-18 13:29:35,412 | WARNING | Symbol info failed: HTTP Error 400: Bad Request
+2026-04-18 13:29:35,413 | INFO | Loaded saved state for BTC-USD
+2026-04-18 13:29:35,584 | ERROR | Binance API HTTPError 400: {"code":-1101,"msg":"Too many parameters; expected '0' and received '3'."}
+2026-04-18 13:29:35,584 | WARNING | Could not sync server time: HTTP Error 400: Bad Request
+2026-04-18 13:29:35,584 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-18 13:29:35,584 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-18 13:29:35,586 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-18 13:29:35,587 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-18 13:29:35,587 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-18 13:29:36,035 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-18 13:29:36,261 | INFO | Websocket connected
+2026-04-18 13:29:36,262 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-18 13:29:36,270 | INFO | Websocket connected
+2026-04-18 13:29:36,270 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-18 13:29:39,636 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-18 13:29:39,782 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-18 13:29:39,972 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-18 13:29:39,973 | INFO | 🛑 Hybrid Bot stopped
+2026-04-18 13:29:39,973 | INFO | ✅ Bot stopped cleanly
+2026-04-18 13:32:12,144 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-18 13:32:12,506 | ERROR | Binance API HTTPError 400: {"code":-1104,"msg":"Not all sent parameters were read; read '1' parameter(s) but was sent '4'."}
+2026-04-18 13:32:12,506 | WARNING | Symbol info failed: HTTP Error 400: Bad Request
+2026-04-18 13:32:12,507 | INFO | Loaded saved state for BTC-USD
+2026-04-18 13:32:12,684 | ERROR | Binance API HTTPError 400: {"code":-1101,"msg":"Too many parameters; expected '0' and received '3'."}
+2026-04-18 13:32:12,684 | WARNING | Could not sync server time: HTTP Error 400: Bad Request
+2026-04-18 13:32:12,684 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-18 13:32:12,684 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-18 13:32:12,685 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-18 13:32:12,685 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-18 13:32:12,685 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-18 13:32:13,028 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-18 13:32:13,367 | INFO | Websocket connected
+2026-04-18 13:32:13,368 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-18 13:32:13,368 | INFO | Websocket connected
+2026-04-18 13:32:13,368 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-18 13:47:15,358 | INFO | 📊 Portfolio Setup:
+2026-04-18 13:47:15,358 | INFO |    Buying Power: $26.73
+2026-04-18 13:47:15,358 | INFO |    Target Exposure: $10.00
+2026-04-18 13:47:15,358 | INFO |    Current Price: $76037.04
+2026-04-18 13:47:15,713 | ERROR | Binance API HTTPError 400: {"code":-1100,"msg":"Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\\.[0-9]{1,20})?$'."}
+2026-04-18 13:47:15,714 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:47:15,714 | INFO | 📈 Placing 20 grid orders in parallel...
+2026-04-18 13:47:16,037 | ERROR | Binance API HTTPError 400: {"code":-1100,"msg":"Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\\.[0-9]{1,20})?$'."}
+2026-04-18 13:47:16,037 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:47:16,066 | ERROR | Binance API HTTPError 400: {"code":-1100,"msg":"Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\\.[0-9]{1,20})?$'."}
+2026-04-18 13:47:16,066 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:47:16,074 | ERROR | Binance API HTTPError 400: {"code":-1100,"msg":"Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\\.[0-9]{1,20})?$'."}
+2026-04-18 13:47:16,075 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:47:16,080 | ERROR | Binance API HTTPError 400: {"code":-1100,"msg":"Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\\.[0-9]{1,20})?$'."}
+2026-04-18 13:47:16,080 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:47:16,084 | ERROR | Binance API HTTPError 400: {"code":-1100,"msg":"Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\\.[0-9]{1,20})?$'."}
+2026-04-18 13:47:16,084 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:47:16,087 | ERROR | Binance API HTTPError 400: {"code":-1100,"msg":"Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\\.[0-9]{1,20})?$'."}
+2026-04-18 13:47:16,087 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:47:16,096 | ERROR | Binance API HTTPError 400: {"code":-1100,"msg":"Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\\.[0-9]{1,20})?$'."}
+2026-04-18 13:47:16,096 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:47:16,096 | ERROR | Binance API HTTPError 400: {"code":-1100,"msg":"Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\\.[0-9]{1,20})?$'."}
+2026-04-18 13:47:16,096 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:47:16,097 | ERROR | Binance API HTTPError 400: {"code":-1100,"msg":"Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\\.[0-9]{1,20})?$'."}
+2026-04-18 13:47:16,098 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:47:16,106 | ERROR | Binance API HTTPError 400: {"code":-1100,"msg":"Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\\.[0-9]{1,20})?$'."}
+2026-04-18 13:47:16,106 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:47:16,108 | ERROR | Binance API HTTPError 400: {"code":-1100,"msg":"Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\\.[0-9]{1,20})?$'."}
+2026-04-18 13:47:16,108 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:47:16,109 | ERROR | Binance API HTTPError 400: {"code":-1100,"msg":"Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\\.[0-9]{1,20})?$'."}
+2026-04-18 13:47:16,109 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:47:16,125 | ERROR | Binance API HTTPError 400: {"code":-1100,"msg":"Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\\.[0-9]{1,20})?$'."}
+2026-04-18 13:47:16,125 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:47:16,127 | ERROR | Binance API HTTPError 400: {"code":-1100,"msg":"Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\\.[0-9]{1,20})?$'."}
+2026-04-18 13:47:16,127 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:47:16,128 | ERROR | Binance API HTTPError 400: {"code":-1100,"msg":"Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\\.[0-9]{1,20})?$'."}
+2026-04-18 13:47:16,128 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:47:16,129 | ERROR | Binance API HTTPError 400: {"code":-1100,"msg":"Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\\.[0-9]{1,20})?$'."}
+2026-04-18 13:47:16,129 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:47:16,210 | ERROR | Binance API HTTPError 400: {"code":-1100,"msg":"Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\\.[0-9]{1,20})?$'."}
+2026-04-18 13:47:16,210 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:47:16,256 | ERROR | Binance API HTTPError 400: {"code":-1100,"msg":"Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\\.[0-9]{1,20})?$'."}
+2026-04-18 13:47:16,256 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:47:16,267 | ERROR | Binance API HTTPError 400: {"code":-1100,"msg":"Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\\.[0-9]{1,20})?$'."}
+2026-04-18 13:47:16,268 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:47:16,271 | ERROR | Binance API HTTPError 400: {"code":-1100,"msg":"Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\\.[0-9]{1,20})?$'."}
+2026-04-18 13:47:16,271 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:47:16,272 | INFO | Grid placed in 0.558s (35.8 orders/sec)
+2026-04-18 13:50:33,446 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-18 13:50:33,615 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-18 13:50:33,818 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-18 13:50:33,820 | INFO | 🛑 Hybrid Bot stopped
+2026-04-18 13:50:33,820 | INFO | ✅ Bot stopped cleanly
+2026-04-18 13:50:33,991 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-18 13:50:34,171 | INFO | Loaded saved state for BTC-USD
+2026-04-18 13:50:34,341 | INFO | ✅ Server time synchronized (skew: 77ms)
+2026-04-18 13:50:34,341 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-18 13:50:34,341 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-18 13:50:34,342 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-18 13:50:34,342 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-18 13:50:34,342 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-18 13:50:34,711 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-18 13:50:34,901 | INFO | Websocket connected
+2026-04-18 13:50:34,901 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-18 13:50:34,904 | INFO | Websocket connected
+2026-04-18 13:50:34,905 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-18 13:50:44,324 | INFO | 📊 Portfolio Setup:
+2026-04-18 13:50:44,324 | INFO |    Buying Power: $26.73
+2026-04-18 13:50:44,324 | INFO |    Target Exposure: $10.00
+2026-04-18 13:50:44,324 | INFO |    Current Price: $76102.24
+2026-04-18 13:50:44,495 | ERROR | Binance API HTTPError 400: {"code":-1111,"msg":"Parameter 'price' has too much precision."}
+2026-04-18 13:50:44,495 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:50:44,495 | INFO | 📈 Placing 20 grid orders in parallel...
+2026-04-18 13:50:44,840 | ERROR | Binance API HTTPError 400: {"code":-1111,"msg":"Parameter 'price' has too much precision."}
+2026-04-18 13:50:44,840 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:50:44,844 | ERROR | Binance API HTTPError 400: {"code":-1013,"msg":"Filter failure: NOTIONAL"}
+2026-04-18 13:50:44,844 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:50:44,858 | ERROR | Binance API HTTPError 400: {"code":-1111,"msg":"Parameter 'price' has too much precision."}
+2026-04-18 13:50:44,859 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:50:44,859 | ERROR | Binance API HTTPError 400: {"code":-1111,"msg":"Parameter 'price' has too much precision."}
+2026-04-18 13:50:44,859 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:50:44,872 | ERROR | Binance API HTTPError 400: {"code":-1111,"msg":"Parameter 'price' has too much precision."}
+2026-04-18 13:50:44,873 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:50:44,882 | ERROR | Binance API HTTPError 400: {"code":-1111,"msg":"Parameter 'price' has too much precision."}
+2026-04-18 13:50:44,883 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:50:44,891 | ERROR | Binance API HTTPError 400: {"code":-1111,"msg":"Parameter 'price' has too much precision."}
+2026-04-18 13:50:44,892 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:50:44,892 | ERROR | Binance API HTTPError 400: {"code":-1111,"msg":"Parameter 'price' has too much precision."}
+2026-04-18 13:50:44,892 | ERROR | Binance API HTTPError 400: {"code":-1111,"msg":"Parameter 'price' has too much precision."}
+2026-04-18 13:50:44,893 | ERROR | Binance API HTTPError 400: {"code":-1111,"msg":"Parameter 'price' has too much precision."}
+2026-04-18 13:50:44,894 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:50:44,895 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:50:44,893 | ERROR | Binance API HTTPError 400: {"code":-1111,"msg":"Parameter 'price' has too much precision."}
+2026-04-18 13:50:44,896 | ERROR | Binance API HTTPError 400: {"code":-1111,"msg":"Parameter 'price' has too much precision."}
+2026-04-18 13:50:44,897 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:50:44,897 | ERROR | Binance API HTTPError 400: {"code":-1111,"msg":"Parameter 'price' has too much precision."}
+2026-04-18 13:50:44,898 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:50:44,898 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:50:44,897 | ERROR | Binance API HTTPError 400: {"code":-1111,"msg":"Parameter 'price' has too much precision."}
+2026-04-18 13:50:44,899 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:50:44,898 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:50:44,897 | ERROR | Binance API HTTPError 400: {"code":-1111,"msg":"Parameter 'price' has too much precision."}
+2026-04-18 13:50:44,900 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:50:44,900 | ERROR | Binance API HTTPError 400: {"code":-1111,"msg":"Parameter 'price' has too much precision."}
+2026-04-18 13:50:44,901 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:50:45,041 | ERROR | Binance API HTTPError 400: {"code":-1111,"msg":"Parameter 'price' has too much precision."}
+2026-04-18 13:50:45,042 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:50:45,045 | ERROR | Binance API HTTPError 400: {"code":-1111,"msg":"Parameter 'price' has too much precision."}
+2026-04-18 13:50:45,045 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:50:45,059 | ERROR | Binance API HTTPError 400: {"code":-1111,"msg":"Parameter 'price' has too much precision."}
+2026-04-18 13:50:45,060 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:50:45,060 | ERROR | Binance API HTTPError 400: {"code":-1111,"msg":"Parameter 'price' has too much precision."}
+2026-04-18 13:50:45,060 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:50:45,061 | INFO | Grid placed in 0.566s (35.3 orders/sec)
+2026-04-18 13:55:05,743 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-18 13:55:05,920 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-18 13:55:06,048 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-18 13:55:06,049 | INFO | 🛑 Hybrid Bot stopped
+2026-04-18 13:55:06,050 | INFO | ✅ Bot stopped cleanly
+2026-04-18 13:55:06,184 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-18 13:55:06,357 | INFO | Loaded saved state for BTC-USD
+2026-04-18 13:55:06,534 | INFO | ✅ Server time synchronized (skew: 79ms)
+2026-04-18 13:55:06,534 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-18 13:55:06,535 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-18 13:55:06,535 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-18 13:55:06,535 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-18 13:55:06,536 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-18 13:55:06,890 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-18 13:55:06,939 | INFO | Websocket connected
+2026-04-18 13:55:06,940 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-18 13:55:06,945 | INFO | Websocket connected
+2026-04-18 13:55:06,946 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-18 13:55:16,540 | INFO | 📊 Portfolio Setup:
+2026-04-18 13:55:16,541 | INFO |    Buying Power: $26.73
+2026-04-18 13:55:16,541 | INFO |    Target Exposure: $10.00
+2026-04-18 13:55:16,541 | INFO |    Current Price: $76144.90
+2026-04-18 13:55:16,713 | ERROR | Binance API HTTPError 400: {"code":-1013,"msg":"Filter failure: NOTIONAL"}
+2026-04-18 13:55:16,713 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:55:16,713 | INFO | 📈 Placing 20 grid orders in parallel...
+2026-04-18 13:55:16,955 | ERROR | Binance API HTTPError 400: {"code":-1013,"msg":"Filter failure: NOTIONAL"}
+2026-04-18 13:55:16,956 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:55:17,021 | ERROR | Binance API HTTPError 400: {"code":-1013,"msg":"Filter failure: NOTIONAL"}
+2026-04-18 13:55:17,021 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:55:17,048 | ERROR | Binance API HTTPError 400: {"code":-1013,"msg":"Filter failure: NOTIONAL"}
+2026-04-18 13:55:17,048 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:55:17,063 | ERROR | Binance API HTTPError 400: {"code":-1013,"msg":"Filter failure: NOTIONAL"}
+2026-04-18 13:55:17,064 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:55:17,072 | ERROR | Binance API HTTPError 400: {"code":-1013,"msg":"Filter failure: NOTIONAL"}
+2026-04-18 13:55:17,072 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:55:17,073 | ERROR | Binance API HTTPError 400: {"code":-1013,"msg":"Filter failure: NOTIONAL"}
+2026-04-18 13:55:17,073 | ERROR | Binance API HTTPError 400: {"code":-1013,"msg":"Filter failure: NOTIONAL"}
+2026-04-18 13:55:17,073 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:55:17,073 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:55:17,076 | ERROR | Binance API HTTPError 400: {"code":-1013,"msg":"Filter failure: NOTIONAL"}
+2026-04-18 13:55:17,076 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:55:17,080 | ERROR | Binance API HTTPError 400: {"code":-1013,"msg":"Filter failure: NOTIONAL"}
+2026-04-18 13:55:17,080 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:55:17,084 | ERROR | Binance API HTTPError 400: {"code":-1013,"msg":"Filter failure: NOTIONAL"}
+2026-04-18 13:55:17,085 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:55:17,086 | ERROR | Binance API HTTPError 400: {"code":-1013,"msg":"Filter failure: NOTIONAL"}
+2026-04-18 13:55:17,086 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:55:17,089 | ERROR | Binance API HTTPError 400: {"code":-1013,"msg":"Filter failure: NOTIONAL"}
+2026-04-18 13:55:17,089 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:55:17,090 | ERROR | Binance API HTTPError 400: {"code":-1013,"msg":"Filter failure: NOTIONAL"}
+2026-04-18 13:55:17,091 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:55:17,092 | ERROR | Binance API HTTPError 400: {"code":-1013,"msg":"Filter failure: NOTIONAL"}
+2026-04-18 13:55:17,092 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:55:17,132 | ERROR | Binance API HTTPError 400: {"code":-1013,"msg":"Filter failure: NOTIONAL"}
+2026-04-18 13:55:17,133 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:55:17,187 | ERROR | Binance API HTTPError 400: {"code":-1013,"msg":"Filter failure: NOTIONAL"}
+2026-04-18 13:55:17,188 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:55:17,197 | ERROR | Binance API HTTPError 400: {"code":-1013,"msg":"Filter failure: NOTIONAL"}
+2026-04-18 13:55:17,197 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:55:17,228 | ERROR | Binance API HTTPError 400: {"code":-1013,"msg":"Filter failure: NOTIONAL"}
+2026-04-18 13:55:17,228 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:55:17,242 | ERROR | Binance API HTTPError 400: {"code":-1013,"msg":"Filter failure: NOTIONAL"}
+2026-04-18 13:55:17,242 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:55:17,339 | ERROR | Binance API HTTPError 400: {"code":-1013,"msg":"Filter failure: NOTIONAL"}
+2026-04-18 13:55:17,339 | ERROR | Order failed: HTTP Error 400: Bad Request
+2026-04-18 13:55:17,340 | INFO | Grid placed in 0.627s (31.9 orders/sec)
+2026-04-18 14:04:26,267 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-18 14:04:26,406 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-18 14:04:26,541 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-18 14:04:26,542 | INFO | 🛑 Hybrid Bot stopped
+2026-04-18 14:04:26,542 | INFO | ✅ Bot stopped cleanly
+2026-04-18 14:04:26,677 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-18 14:04:26,850 | INFO | Loaded saved state for BTC-USD
+2026-04-18 14:04:27,020 | INFO | ✅ Server time synchronized (skew: 79ms)
+2026-04-18 14:04:27,021 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-18 14:04:27,021 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-18 14:04:27,021 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-18 14:04:27,021 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-18 14:04:27,022 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-18 14:04:27,379 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-18 14:04:27,439 | INFO | Websocket connected
+2026-04-18 14:04:27,439 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-18 14:04:27,448 | INFO | Websocket connected
+2026-04-18 14:04:27,449 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-18 14:04:31,852 | INFO | 📊 Portfolio Setup:
+2026-04-18 14:04:31,853 | INFO |    Buying Power: $26.73
+2026-04-18 14:04:31,853 | INFO |    Target Exposure: $10.00
+2026-04-18 14:04:31,853 | INFO |    Current Price: $76126.38
+2026-04-18 14:04:31,853 | INFO | 📈 Placing 20 grid orders in parallel...
+2026-04-18 14:04:31,855 | INFO | Grid placed in 0.002s (8924.1 orders/sec)
+2026-04-18 14:55:34,280 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-18 14:55:34,519 | INFO | Loaded saved state for BTC-USD
+2026-04-18 14:55:34,735 | INFO | ✅ Server time synchronized (skew: 66ms)
+2026-04-18 14:55:34,736 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-18 14:55:34,736 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-18 14:55:34,737 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-18 14:55:34,737 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-18 14:55:34,738 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-18 14:55:35,124 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-18 14:55:35,259 | INFO | Websocket connected
+2026-04-18 14:55:35,260 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-18 14:55:35,268 | INFO | Websocket connected
+2026-04-18 14:55:35,268 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-18 14:55:38,255 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-18 14:55:38,450 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-18 14:55:38,568 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-18 14:55:38,569 | INFO | 🛑 Hybrid Bot stopped
+2026-04-18 14:55:38,569 | INFO | ✅ Bot stopped cleanly
+2026-04-18 14:55:57,888 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-18 14:55:58,067 | INFO | Loaded saved state for BTC-USD
+2026-04-18 14:55:58,238 | INFO | ✅ Server time synchronized (skew: 66ms)
+2026-04-18 14:55:58,238 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-18 14:55:58,239 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-18 14:55:58,239 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-18 14:55:58,239 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-18 14:55:58,240 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-18 14:55:58,601 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-18 14:55:58,749 | INFO | Websocket connected
+2026-04-18 14:55:58,750 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-18 14:55:58,750 | INFO | Websocket connected
+2026-04-18 14:55:58,750 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-18 14:56:11,040 | INFO | 📊 Portfolio Setup:
+2026-04-18 14:56:11,040 | INFO |    Buying Power: $26.73
+2026-04-18 14:56:11,040 | INFO |    Target Exposure: $10.00
+2026-04-18 14:56:11,040 | INFO |    Current Price: $76241.60
+2026-04-18 14:56:11,040 | INFO | 📈 Placing 20 grid orders in parallel...
+2026-04-18 14:56:11,043 | INFO | Grid placed in 0.003s (7491.2 orders/sec)
+2026-04-18 15:29:56,592 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-18 15:29:56,968 | INFO | Loaded saved state for BTC-USD
+2026-04-18 15:29:57,204 | INFO | ✅ Server time synchronized (skew: 30ms)
+2026-04-18 15:29:57,204 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-18 15:29:57,204 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-18 15:29:57,205 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-18 15:29:57,205 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-18 15:29:57,206 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-18 15:29:57,760 | INFO | Websocket connected
+2026-04-18 15:29:57,760 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-18 15:29:57,777 | INFO | Websocket connected
+2026-04-18 15:29:57,777 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-18 15:29:57,867 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-18 15:30:00,456 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-18 15:30:00,590 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-18 15:30:00,806 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-18 15:30:00,807 | INFO | 🛑 Hybrid Bot stopped
+2026-04-18 15:30:00,807 | INFO | ✅ Bot stopped cleanly
+2026-04-18 15:30:15,895 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-18 15:30:16,068 | INFO | Loaded saved state for BTC-USD
+2026-04-18 15:30:16,243 | INFO | ✅ Server time synchronized (skew: 32ms)
+2026-04-18 15:30:16,243 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-18 15:30:16,243 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-18 15:30:16,244 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-18 15:30:16,244 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-18 15:30:16,245 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-18 15:30:16,597 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-18 15:30:16,774 | INFO | Websocket connected
+2026-04-18 15:30:16,775 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-18 15:30:16,777 | INFO | Websocket connected
+2026-04-18 15:30:16,778 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-18 15:30:32,586 | INFO | 📊 Portfolio Setup:
+2026-04-18 15:30:32,586 | INFO |    Buying Power: $26.73
+2026-04-18 15:30:32,586 | INFO |    Target Exposure: $10.00
+2026-04-18 15:30:32,586 | INFO |    Current Price: $76210.48
+2026-04-18 15:30:32,587 | INFO | 📈 Placing 20 grid orders in parallel...
+2026-04-18 15:30:32,589 | INFO | Grid placed in 0.002s (8878.7 orders/sec)
+2026-04-18 17:04:31,621 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-18 17:04:31,986 | INFO | Loaded saved state for BTC-USD
+2026-04-18 17:04:32,204 | INFO | ✅ Server time synchronized (skew: 92ms)
+2026-04-18 17:04:32,204 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-18 17:04:32,205 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-18 17:04:32,206 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-18 17:04:32,208 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-18 17:04:32,208 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-18 17:04:32,640 | INFO | Websocket connected
+2026-04-18 17:04:32,641 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-18 17:04:32,649 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-18 17:04:32,651 | INFO | Websocket connected
+2026-04-18 17:04:32,651 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-18 17:04:36,168 | INFO | ⏸ Received interrupt signal - shutting down gracefully...
+2026-04-18 17:04:36,373 | WARNING | ⚠️ User Data WebSocket closed - attempting reconnect...
+2026-04-18 17:04:36,585 | WARNING | ⚠️ Ticker stream closed - attempting reconnect...
+2026-04-18 17:04:36,586 | INFO | 🛑 Hybrid Bot stopped
+2026-04-18 17:04:36,587 | INFO | ✅ Bot stopped cleanly
+2026-04-18 17:04:48,413 | WARNING | ⚠️  LIVE TRADING MODE - Using real API keys
+2026-04-18 17:04:48,604 | INFO | Loaded saved state for BTC-USD
+2026-04-18 17:04:48,798 | INFO | ✅ Server time synchronized (skew: 91ms)
+2026-04-18 17:04:48,798 | INFO | 🚀 Starting Hybrid DCA + Infinity Grid (User Data Stream) on BTC-USD
+2026-04-18 17:04:48,798 | INFO | 🔗 Connecting to WebSocket: wss://stream.binance.com:9443/ws
+2026-04-18 17:04:48,799 | INFO | User Data Stream WebSocket thread started (real-time fills enabled)
+2026-04-18 17:04:48,800 | INFO | 📡 Connecting to ticker stream: wss://stream.binance.com:9443/ws/btcusdt@ticker
+2026-04-18 17:04:48,801 | INFO | ⚡ Real-time ticker stream started (instant price updates enabled)
+2026-04-18 17:04:49,194 | INFO | 📊 Spot Balance Loaded | Buying Power: $26.73 | Cash: $26.73 | Total: $26.73
+2026-04-18 17:04:49,211 | INFO | Websocket connected
+2026-04-18 17:04:49,211 | INFO | ✅ Ticker WebSocket connected - real-time prices ACTIVE
+2026-04-18 17:04:49,214 | INFO | Websocket connected
+2026-04-18 17:04:49,215 | INFO | ✅ User Data WebSocket connected - instant fill detection ACTIVE
+2026-04-18 17:05:02,932 | INFO | 📊 Portfolio Setup:
+2026-04-18 17:05:02,932 | INFO |    Buying Power: $26.73
+2026-04-18 17:05:02,932 | INFO |    Target Exposure: $10.00
+2026-04-18 17:05:02,932 | INFO |    Current Price: $75905.22
+2026-04-18 17:05:02,933 | INFO | 📈 Placing 20 grid orders in parallel...
+2026-04-18 17:05:02,935 | INFO | Grid placed in 0.003s (7214.8 orders/sec)

@@ -38,7 +38,7 @@ try:
     print("\n" + "=" * 50)
     print("✅ CONNECTION TEST PASSED")
     print("\nTo start live bot:")
-    print("   python3 NEW")
+    print("   python hybrid_dca_grid.py")
     print("\n⚠️  WARNING: This will trade with REAL MONEY")
     print("=" * 50 + "\n")
     
