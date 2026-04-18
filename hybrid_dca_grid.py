@@ -688,13 +688,6 @@ class HybridDCAInfinityGrid:
             if qty <= 0:
                 logger.warning(f"Invalid qty for order: {qty}")
                 return None
-            
-            # Check notional value (Binance requires minimum notional per order, typically ~$10-$15)
-            notional = qty * price
-            MIN_NOTIONAL = 10.0  # Minimum $10 notional for most pairs
-            if notional < MIN_NOTIONAL:
-                logger.debug(f"Order {tag} skipped - notional ${notional:.2f} below minimum ${MIN_NOTIONAL}")
-                return None
 
             params = {
                 "symbol": self.binance_symbol,
@@ -733,14 +726,6 @@ class HybridDCAInfinityGrid:
             
             if qty <= 0:
                 logger.warning(f"Invalid qty for market order: {qty}")
-                return None
-            
-            # Check notional value using current price
-            current_price = self.last_price if self.last_price > 0 else 76000  # fallback
-            notional = qty * current_price
-            MIN_NOTIONAL = 10.0
-            if notional < MIN_NOTIONAL:
-                logger.debug(f"Market order {tag} skipped - notional ${notional:.2f} below minimum ${MIN_NOTIONAL}")
                 return None
 
             params = {
